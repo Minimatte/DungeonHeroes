@@ -80,5 +80,10 @@ public class Health : MonoBehaviour {
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
     }
 
+    public void SetupHealth(int health) {
+        maxHealth = health;
+        currentHealth = maxHealth;
+
+    }
 
 }

@@ -1,0 +1,1937 @@
+fileFormatVersion: 2
+guid: 8cac467695c86254195fee397348023d
+timeCreated: 1453043366
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC Computer - Maple Story 2 - Weapons_0
+    21300002: PC Computer - Maple Story 2 - Weapons_1
+    21300004: PC Computer - Maple Story 2 - Weapons_2
+    21300006: PC Computer - Maple Story 2 - Weapons_3
+    21300008: PC Computer - Maple Story 2 - Weapons_4
+    21300010: PC Computer - Maple Story 2 - Weapons_5
+    21300012: PC Computer - Maple Story 2 - Weapons_6
+    21300014: PC Computer - Maple Story 2 - Weapons_7
+    21300016: PC Computer - Maple Story 2 - Weapons_8
+    21300018: PC Computer - Maple Story 2 - Weapons_9
+    21300020: PC Computer - Maple Story 2 - Weapons_10
+    21300022: PC Computer - Maple Story 2 - Weapons_11
+    21300024: PC Computer - Maple Story 2 - Weapons_12
+    21300026: PC Computer - Maple Story 2 - Weapons_13
+    21300028: PC Computer - Maple Story 2 - Weapons_14
+    21300030: PC Computer - Maple Story 2 - Weapons_15
+    21300032: PC Computer - Maple Story 2 - Weapons_16
+    21300034: PC Computer - Maple Story 2 - Weapons_17
+    21300036: PC Computer - Maple Story 2 - Weapons_18
+    21300038: PC Computer - Maple Story 2 - Weapons_19
+    21300040: PC Computer - Maple Story 2 - Weapons_20
+    21300042: PC Computer - Maple Story 2 - Weapons_21
+    21300044: PC Computer - Maple Story 2 - Weapons_22
+    21300046: PC Computer - Maple Story 2 - Weapons_23
+    21300048: PC Computer - Maple Story 2 - Weapons_24
+    21300050: PC Computer - Maple Story 2 - Weapons_25
+    21300052: PC Computer - Maple Story 2 - Weapons_26
+    21300054: PC Computer - Maple Story 2 - Weapons_27
+    21300056: PC Computer - Maple Story 2 - Weapons_28
+    21300058: PC Computer - Maple Story 2 - Weapons_29
+    21300060: PC Computer - Maple Story 2 - Weapons_30
+    21300062: PC Computer - Maple Story 2 - Weapons_31
+    21300064: PC Computer - Maple Story 2 - Weapons_32
+    21300066: PC Computer - Maple Story 2 - Weapons_33
+    21300068: PC Computer - Maple Story 2 - Weapons_34
+    21300070: PC Computer - Maple Story 2 - Weapons_35
+    21300072: PC Computer - Maple Story 2 - Weapons_36
+    21300074: PC Computer - Maple Story 2 - Weapons_37
+    21300076: PC Computer - Maple Story 2 - Weapons_38
+    21300078: PC Computer - Maple Story 2 - Weapons_39
+    21300080: PC Computer - Maple Story 2 - Weapons_40
+    21300082: PC Computer - Maple Story 2 - Weapons_41
+    21300084: PC Computer - Maple Story 2 - Weapons_42
+    21300086: PC Computer - Maple Story 2 - Weapons_43
+    21300088: PC Computer - Maple Story 2 - Weapons_44
+    21300090: PC Computer - Maple Story 2 - Weapons_45
+    21300092: PC Computer - Maple Story 2 - Weapons_46
+    21300094: PC Computer - Maple Story 2 - Weapons_47
+    21300096: PC Computer - Maple Story 2 - Weapons_48
+    21300098: PC Computer - Maple Story 2 - Weapons_49
+    21300100: PC Computer - Maple Story 2 - Weapons_50
+    21300102: PC Computer - Maple Story 2 - Weapons_51
+    21300104: PC Computer - Maple Story 2 - Weapons_52
+    21300106: PC Computer - Maple Story 2 - Weapons_53
+    21300108: PC Computer - Maple Story 2 - Weapons_54
+    21300110: PC Computer - Maple Story 2 - Weapons_55
+    21300112: PC Computer - Maple Story 2 - Weapons_56
+    21300114: PC Computer - Maple Story 2 - Weapons_57
+    21300116: PC Computer - Maple Story 2 - Weapons_58
+    21300118: PC Computer - Maple Story 2 - Weapons_59
+    21300120: PC Computer - Maple Story 2 - Weapons_60
+    21300122: PC Computer - Maple Story 2 - Weapons_61
+    21300124: PC Computer - Maple Story 2 - Weapons_62
+    21300126: PC Computer - Maple Story 2 - Weapons_63
+    21300128: PC Computer - Maple Story 2 - Weapons_64
+    21300130: PC Computer - Maple Story 2 - Weapons_65
+    21300132: PC Computer - Maple Story 2 - Weapons_66
+    21300134: PC Computer - Maple Story 2 - Weapons_67
+    21300136: PC Computer - Maple Story 2 - Weapons_68
+    21300138: PC Computer - Maple Story 2 - Weapons_69
+    21300140: PC Computer - Maple Story 2 - Weapons_70
+    21300142: PC Computer - Maple Story 2 - Weapons_71
+    21300144: PC Computer - Maple Story 2 - Weapons_72
+    21300146: PC Computer - Maple Story 2 - Weapons_73
+    21300148: PC Computer - Maple Story 2 - Weapons_74
+    21300150: PC Computer - Maple Story 2 - Weapons_75
+    21300152: PC Computer - Maple Story 2 - Weapons_76
+    21300154: PC Computer - Maple Story 2 - Weapons_77
+    21300156: PC Computer - Maple Story 2 - Weapons_78
+    21300158: PC Computer - Maple Story 2 - Weapons_79
+    21300160: PC Computer - Maple Story 2 - Weapons_80
+    21300162: PC Computer - Maple Story 2 - Weapons_81
+    21300164: PC Computer - Maple Story 2 - Weapons_82
+    21300166: PC Computer - Maple Story 2 - Weapons_83
+    21300168: PC Computer - Maple Story 2 - Weapons_84
+    21300170: PC Computer - Maple Story 2 - Weapons_85
+    21300172: PC Computer - Maple Story 2 - Weapons_86
+    21300174: PC Computer - Maple Story 2 - Weapons_87
+    21300176: PC Computer - Maple Story 2 - Weapons_88
+    21300178: PC Computer - Maple Story 2 - Weapons_89
+    21300180: PC Computer - Maple Story 2 - Weapons_90
+    21300182: PC Computer - Maple Story 2 - Weapons_91
+    21300184: PC Computer - Maple Story 2 - Weapons_92
+    21300186: PC Computer - Maple Story 2 - Weapons_93
+    21300188: PC Computer - Maple Story 2 - Weapons_94
+    21300190: PC Computer - Maple Story 2 - Weapons_95
+    21300192: PC Computer - Maple Story 2 - Weapons_96
+    21300194: PC Computer - Maple Story 2 - Weapons_97
+    21300196: PC Computer - Maple Story 2 - Weapons_98
+    21300198: PC Computer - Maple Story 2 - Weapons_99
+    21300200: PC Computer - Maple Story 2 - Weapons_100
+    21300202: PC Computer - Maple Story 2 - Weapons_101
+    21300204: PC Computer - Maple Story 2 - Weapons_102
+    21300206: PC Computer - Maple Story 2 - Weapons_103
+    21300208: PC Computer - Maple Story 2 - Weapons_104
+    21300210: PC Computer - Maple Story 2 - Weapons_105
+    21300212: PC Computer - Maple Story 2 - Weapons_106
+    21300214: PC Computer - Maple Story 2 - Weapons_107
+    21300216: PC Computer - Maple Story 2 - Weapons_108
+    21300218: PC Computer - Maple Story 2 - Weapons_109
+    21300220: PC Computer - Maple Story 2 - Weapons_110
+    21300222: PC Computer - Maple Story 2 - Weapons_111
+    21300224: PC Computer - Maple Story 2 - Weapons_112
+    21300226: PC Computer - Maple Story 2 - Weapons_113
+    21300228: PC Computer - Maple Story 2 - Weapons_114
+    21300230: PC Computer - Maple Story 2 - Weapons_115
+    21300232: PC Computer - Maple Story 2 - Weapons_116
+    21300234: PC Computer - Maple Story 2 - Weapons_117
+    21300236: PC Computer - Maple Story 2 - Weapons_118
+    21300238: PC Computer - Maple Story 2 - Weapons_119
+    21300240: PC Computer - Maple Story 2 - Weapons_120
+    21300242: PC Computer - Maple Story 2 - Weapons_121
+    21300244: PC Computer - Maple Story 2 - Weapons_122
+    21300246: PC Computer - Maple Story 2 - Weapons_123
+    21300248: PC Computer - Maple Story 2 - Weapons_124
+    21300250: PC Computer - Maple Story 2 - Weapons_125
+    21300252: PC Computer - Maple Story 2 - Weapons_126
+    21300254: PC Computer - Maple Story 2 - Weapons_127
+    21300256: PC Computer - Maple Story 2 - Weapons_128
+    21300258: PC Computer - Maple Story 2 - Weapons_129
+    21300260: PC Computer - Maple Story 2 - Weapons_130
+    21300262: PC Computer - Maple Story 2 - Weapons_131
+    21300264: PC Computer - Maple Story 2 - Weapons_132
+    21300266: PC Computer - Maple Story 2 - Weapons_133
+    21300268: PC Computer - Maple Story 2 - Weapons_134
+    21300270: PC Computer - Maple Story 2 - Weapons_135
+    21300272: PC Computer - Maple Story 2 - Weapons_136
+    21300274: PC Computer - Maple Story 2 - Weapons_137
+    21300276: PC Computer - Maple Story 2 - Weapons_138
+    21300278: PC Computer - Maple Story 2 - Weapons_139
+    21300280: PC Computer - Maple Story 2 - Weapons_140
+    21300282: PC Computer - Maple Story 2 - Weapons_141
+    21300284: PC Computer - Maple Story 2 - Weapons_142
+    21300286: PC Computer - Maple Story 2 - Weapons_143
+    21300288: PC Computer - Maple Story 2 - Weapons_144
+    21300290: PC Computer - Maple Story 2 - Weapons_145
+    21300292: PC Computer - Maple Story 2 - Weapons_146
+    21300294: PC Computer - Maple Story 2 - Weapons_147
+    21300296: PC Computer - Maple Story 2 - Weapons_148
+    21300298: PC Computer - Maple Story 2 - Weapons_149
+    21300300: PC Computer - Maple Story 2 - Weapons_150
+    21300302: PC Computer - Maple Story 2 - Weapons_151
+    21300304: PC Computer - Maple Story 2 - Weapons_152
+    21300306: PC Computer - Maple Story 2 - Weapons_153
+    21300308: PC Computer - Maple Story 2 - Weapons_154
+    21300310: PC Computer - Maple Story 2 - Weapons_155
+    21300312: PC Computer - Maple Story 2 - Weapons_156
+    21300314: PC Computer - Maple Story 2 - Weapons_157
+    21300316: PC Computer - Maple Story 2 - Weapons_158
+    21300318: PC Computer - Maple Story 2 - Weapons_159
+    21300320: PC Computer - Maple Story 2 - Weapons_160
+    21300322: PC Computer - Maple Story 2 - Weapons_161
+    21300324: PC Computer - Maple Story 2 - Weapons_162
+    21300326: PC Computer - Maple Story 2 - Weapons_163
+    21300328: PC Computer - Maple Story 2 - Weapons_164
+    21300330: PC Computer - Maple Story 2 - Weapons_165
+    21300332: PC Computer - Maple Story 2 - Weapons_166
+    21300334: PC Computer - Maple Story 2 - Weapons_167
+    21300336: PC Computer - Maple Story 2 - Weapons_168
+    21300338: PC Computer - Maple Story 2 - Weapons_169
+    21300340: PC Computer - Maple Story 2 - Weapons_170
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 333
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PC Computer - Maple Story 2 - Weapons_0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 2241
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2242
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 2240
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2240
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2240
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2175
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2173
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_7
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 2175
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2173
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2175
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2109
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_11
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2109
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2113
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_13
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2112
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_14
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2110
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_15
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2045
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2045
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2045
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_18
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 2045
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_19
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2046
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1979
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1978
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_22
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1979
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_23
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1984
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_24
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 1980
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_25
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1918
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_26
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1917
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_27
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1915
+        width: 53
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_28
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1913
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_29
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1915
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_30
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1851
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_31
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1849
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_32
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1849
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_33
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1850
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1848
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1784
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_36
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1784
+        width: 43
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_37
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1784
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_38
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1784
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_39
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1784
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1718
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_41
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1719
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_42
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1718
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_43
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1720
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_44
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1721
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_45
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1654
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_46
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1655
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_47
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1655
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_48
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1655
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_49
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1654
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_50
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1590
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_51
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1588
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_52
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1589
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_53
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1589
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_54
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1589
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_55
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1523
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_56
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1524
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_57
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1525
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_58
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1525
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_59
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1525
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_60
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1462
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_61
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1461
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_62
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1461
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_63
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1461
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_64
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 1461
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_65
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1396
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_66
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1395
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_67
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1395
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_68
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1394
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_69
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1395
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_70
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1329
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_71
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1330
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_72
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1328
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_73
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1329
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_74
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1332
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_75
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1265
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_76
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1265
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_77
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1264
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_78
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1266
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_79
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1264
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1201
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_81
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1200
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_82
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1198
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_83
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 1201
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_84
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1199
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_85
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1134
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_86
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1134
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_87
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1133
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_88
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1133
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_89
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1133
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_90
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1067
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_91
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1067
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_92
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1071
+        width: 57
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_93
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1067
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_94
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1067
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_95
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1003
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_96
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1005
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_97
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1002
+        width: 49
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_98
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1002
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_99
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1002
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_100
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 940
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_101
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 939
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_102
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 939
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_103
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 939
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_104
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 939
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_105
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 874
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_106
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 874
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_107
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 874
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_108
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 874
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_109
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 874
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_110
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 809
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_111
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 809
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_112
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 809
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_113
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 809
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_114
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 809
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_115
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 743
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_116
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 743
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_117
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 743
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_118
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 746
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_119
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 745
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_120
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 680
+        width: 51
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_121
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 678
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_122
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 679
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_123
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 681
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_124
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 680
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_125
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 614
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_126
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 614
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_127
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 614
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_128
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 614
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_129
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 614
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_130
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 549
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_131
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 549
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_132
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 550
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_133
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 548
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_134
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 553
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_135
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 486
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_136
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 485
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_137
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 486
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_138
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 485
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_139
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 484
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_140
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 419
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_141
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 419
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_142
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 419
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_143
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 419
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_144
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 419
+        width: 53
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_145
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 354
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_146
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 354
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_147
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 353
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_148
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 353
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_149
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 354
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_150
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 289
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_151
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 289
+        width: 50
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_152
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 290
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_153
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 290
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_154
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 290
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_155
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 227
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_156
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 226
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_157
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 224
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_158
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 228
+        width: 56
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_159
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 226
+        width: 53
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 163
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_161
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 158
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_162
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 162
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_163
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 159
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_164
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 163
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_165
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 99
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_166
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 98
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_167
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 97
+        width: 52
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_168
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 98
+        width: 52
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_169
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 98
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PC Computer - Maple Story 2 - Weapons_170
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 10
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

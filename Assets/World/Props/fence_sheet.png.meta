@@ -1,0 +1,283 @@
+fileFormatVersion: 2
+guid: 906cfc5c99ad2d74b9023f00f21ff506
+timeCreated: 1468346482
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: fence_sheet_0
+    21300002: fence_sheet_1
+    21300004: fence_sheet_2
+    21300006: fence_sheet_3
+    21300008: fence_sheet_4
+    21300010: fence_sheet_5
+    21300012: fence_sheet_6
+    21300014: fence_sheet_7
+    21300016: fence_sheet_8
+    21300018: fence_sheet_9
+    21300020: fence_sheet_10
+    21300022: fence_sheet_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: fence_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 5}
+        - {x: -4, y: -16}
+        - {x: 5, y: -16}
+        - {x: 5, y: 5}
+        - {x: 2, y: 8}
+        - {x: -1, y: 8}
+    - name: fence_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 2}
+        - {x: -10, y: -2}
+        - {x: -12, y: -4}
+        - {x: -12, y: -9}
+        - {x: -7, y: -16}
+        - {x: 7, y: -16}
+        - {x: 13, y: -14}
+        - {x: 13, y: -2}
+        - {x: 4, y: 2}
+    - name: fence_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -2}
+        - {x: -13, y: -2}
+        - {x: -13, y: -11}
+        - {x: 13, y: -11}
+        - {x: 13, y: -4}
+    - name: fence_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: -3}
+        - {x: -7, y: -9}
+        - {x: -6, y: -11}
+        - {x: 7, y: -11}
+        - {x: 7, y: -4}
+        - {x: 5, y: -2}
+        - {x: -4, y: -2}
+    - name: fence_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 2}
+        - {x: -15, y: -1}
+        - {x: -15, y: -16}
+        - {x: -2, y: -16}
+        - {x: 16, y: -2}
+        - {x: 16, y: 2}
+    - name: fence_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -11}
+        - {x: 16, y: 2}
+        - {x: -13, y: 2}
+        - {x: -16, y: -2}
+        - {x: -16, y: -11}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+    - name: fence_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 2}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -1}
+        - {x: 13, y: 2}
+    - name: fence_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: -1}
+        - {x: 8, y: 2}
+        - {x: -7, y: 2}
+        - {x: -10, y: 1}
+    - name: fence_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 2}
+        - {x: -15, y: -1}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 1}
+        - {x: 15, y: 2}
+    - name: fence_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -11}
+        - {x: 16, y: 2}
+        - {x: -13, y: 2}
+        - {x: -16, y: -2}
+        - {x: -16, y: -11}
+        - {x: -10, y: -16}
+        - {x: 10, y: -16}
+    - name: fence_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 2}
+        - {x: -16, y: -1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -1}
+        - {x: 13, y: 2}
+    - name: fence_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -16}
+        - {x: 10, y: -16}
+        - {x: 10, y: -1}
+        - {x: 8, y: 2}
+        - {x: -7, y: 2}
+        - {x: -10, y: 1}
+    outline:
+    - - {x: 64, y: 96}
+      - {x: 124.867615, y: 62.832817}
+      - {x: 101.618256, y: 9.167183}
+      - {x: 26.381737, y: 9.167187}
+      - {x: 3.1323853, y: 62.83282}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

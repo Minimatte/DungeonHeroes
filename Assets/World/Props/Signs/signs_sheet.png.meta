@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 33b55df2789d01645a8bba66e1c32581
+timeCreated: 1468346756
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: signs_sheet_0
+    21300002: signs_sheet_1
+    21300004: signs_sheet_2
+    21300006: signs_sheet_3
+    21300008: signs_sheet_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: signs_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -13, y: 0}
+        - {x: 13, y: 0}
+        - {x: 13, y: 25}
+        - {x: 12, y: 27}
+        - {x: -11, y: 27}
+    - name: signs_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25}
+        - {x: -13, y: 0}
+        - {x: 13, y: 0}
+        - {x: 13, y: 25}
+        - {x: 12, y: 27}
+        - {x: -11, y: 27}
+    - name: signs_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 23}
+        - {x: -9, y: 2}
+        - {x: -8, y: 0}
+        - {x: 7, y: 0}
+        - {x: 9, y: 2}
+        - {x: 10, y: 6}
+        - {x: 10, y: 23}
+    - name: signs_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.0014287753, y: 0.86069626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.045721054, y: 4.45772}
+        - {x: -0.045721054, y: -11.54228}
+        - {x: 0.95427895, y: -16.54228}
+        - {x: 21.954279, y: -16.54228}
+        - {x: 21.954279, y: 3.4577198}
+        - {x: 16.954279, y: 4.45772}
+    - name: signs_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 23}
+        - {x: -9, y: 2}
+        - {x: -8, y: 0}
+        - {x: 7, y: 0}
+        - {x: 9, y: 2}
+        - {x: 10, y: 6}
+        - {x: 10, y: 23}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

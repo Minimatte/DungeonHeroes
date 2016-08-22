@@ -1,0 +1,580 @@
+fileFormatVersion: 2
+guid: a48270096c2b80b4aad468a37ee056b9
+timeCreated: 1468346481
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: trees_flowers_bushes_sheet_0
+    21300002: trees_flowers_bushes_sheet_1
+    21300004: trees_flowers_bushes_sheet_2
+    21300006: trees_flowers_bushes_sheet_3
+    21300008: trees_flowers_bushes_sheet_4
+    21300010: trees_flowers_bushes_sheet_5
+    21300012: trees_flowers_bushes_sheet_6
+    21300014: trees_flowers_bushes_sheet_7
+    21300016: trees_flowers_bushes_sheet_8
+    21300018: trees_flowers_bushes_sheet_9
+    21300020: trees_flowers_bushes_sheet_10
+    21300022: trees_flowers_bushes_sheet_11
+    21300024: trees_flowers_bushes_sheet_12
+    21300026: trees_flowers_bushes_sheet_13
+    21300028: trees_flowers_bushes_sheet_14
+    21300030: trees_flowers_bushes_sheet_15
+    21300032: trees_flowers_bushes_sheet_16
+    21300034: trees_flowers_bushes_sheet_17
+    21300036: trees_flowers_bushes_sheet_18
+    21300038: trees_flowers_bushes_sheet_19
+    21300040: trees_flowers_bushes_sheet_20
+    21300042: trees_flowers_bushes_sheet_21
+    21300044: trees_flowers_bushes_sheet_22
+    21300046: trees_flowers_bushes_sheet_23
+    21300048: trees_flowers_bushes_sheet_24
+    21300050: trees_flowers_bushes_sheet_25
+    21300052: trees_flowers_bushes_sheet_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: 4
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: trees_flowers_bushes_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 1}
+        - {x: -9, y: -6}
+        - {x: -9, y: -11}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -11}
+        - {x: 8, y: -1}
+        - {x: 4, y: 1}
+    - name: trees_flowers_bushes_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 11}
+        - {x: -7, y: 4}
+        - {x: -7, y: -10}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -1}
+        - {x: 10, y: 6}
+        - {x: 6, y: 11}
+    - name: trees_flowers_bushes_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -7, y: 10}
+        - {x: -7, y: -12}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 12}
+        - {x: 5, y: 13}
+    - name: trees_flowers_bushes_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -7, y: 10}
+        - {x: -7, y: -12}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 12}
+        - {x: 5, y: 13}
+    - name: trees_flowers_bushes_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -7, y: 10}
+        - {x: -7, y: -12}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 12}
+        - {x: 5, y: 13}
+    - name: trees_flowers_bushes_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 11}
+        - {x: -9, y: 6}
+        - {x: -9, y: -4}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+        - {x: 8, y: -6}
+        - {x: 8, y: 7}
+        - {x: 3, y: 11}
+    - name: trees_flowers_bushes_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 11}
+        - {x: -7, y: 4}
+        - {x: -7, y: -10}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -1}
+        - {x: 10, y: 6}
+        - {x: 6, y: 11}
+    - name: trees_flowers_bushes_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 1}
+        - {x: -9, y: -1}
+        - {x: -9, y: -13}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -9}
+        - {x: 8, y: -2}
+        - {x: 5, y: 1}
+    - name: trees_flowers_bushes_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 1}
+        - {x: -8, y: -1}
+        - {x: -8, y: -14}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -12}
+        - {x: 9, y: -1}
+        - {x: 6, y: 1}
+    - name: trees_flowers_bushes_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 1}
+        - {x: -9, y: -6}
+        - {x: -9, y: -11}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -11}
+        - {x: 8, y: -1}
+        - {x: 4, y: 1}
+    - name: trees_flowers_bushes_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 11}
+        - {x: -7, y: 4}
+        - {x: -7, y: -10}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -1}
+        - {x: 10, y: 6}
+        - {x: 6, y: 11}
+    - name: trees_flowers_bushes_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -7, y: 10}
+        - {x: -7, y: -12}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 12}
+        - {x: 5, y: 13}
+    - name: trees_flowers_bushes_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -7, y: 10}
+        - {x: -7, y: -12}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 12}
+        - {x: 5, y: 13}
+    - name: trees_flowers_bushes_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 13}
+        - {x: -7, y: 10}
+        - {x: -7, y: -12}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 8, y: 12}
+        - {x: 5, y: 13}
+    - name: trees_flowers_bushes_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 11}
+        - {x: -9, y: 6}
+        - {x: -9, y: -2}
+        - {x: -7, y: -16}
+        - {x: 6, y: -16}
+        - {x: 8, y: -6}
+        - {x: 8, y: 8}
+        - {x: 3, y: 11}
+    - name: trees_flowers_bushes_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 11}
+        - {x: -7, y: 4}
+        - {x: -7, y: -10}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 10, y: -1}
+        - {x: 10, y: 6}
+        - {x: 6, y: 11}
+    - name: trees_flowers_bushes_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 1}
+        - {x: -9, y: -1}
+        - {x: -9, y: -14}
+        - {x: -6, y: -16}
+        - {x: 7, y: -16}
+        - {x: 8, y: -12}
+        - {x: 8, y: 0}
+        - {x: 5, y: 1}
+    - name: trees_flowers_bushes_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 1}
+        - {x: -8, y: -1}
+        - {x: -8, y: -14}
+        - {x: -5, y: -16}
+        - {x: 8, y: -16}
+        - {x: 9, y: -12}
+        - {x: 9, y: -1}
+        - {x: 6, y: 1}
+    - name: trees_flowers_bushes_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: -3}
+        - {x: 3, y: -7}
+        - {x: 1, y: -15}
+        - {x: 2, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -5}
+        - {x: 11, y: -3}
+    - name: trees_flowers_bushes_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: -16}
+        - {x: 12, y: -16}
+        - {x: 9, y: -5}
+        - {x: 4, y: -4}
+        - {x: -7, y: -4}
+        - {x: -10, y: -13}
+    - name: trees_flowers_bushes_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: -3}
+        - {x: -12, y: -3}
+        - {x: -16, y: -4}
+        - {x: -16, y: -16}
+        - {x: -1, y: -16}
+        - {x: -1, y: -13}
+        - {x: -4, y: -5}
+    - name: trees_flowers_bushes_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 0}
+        - {x: -16, y: -3}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -1}
+        - {x: 10, y: 0}
+    - name: trees_flowers_bushes_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 5}
+        - {x: -6, y: 5}
+        - {x: -16, y: -6}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -3}
+        - {x: 15, y: 1}
+    - name: trees_flowers_bushes_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 1}
+        - {x: -15, y: -3}
+        - {x: -15, y: -14}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: -5}
+        - {x: 13, y: 1}
+    - name: trees_flowers_bushes_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: -3}
+        - {x: -8, y: -4}
+        - {x: -8, y: -14}
+        - {x: -6, y: -16}
+        - {x: 5, y: -16}
+        - {x: 7, y: -14}
+        - {x: 7, y: -4}
+        - {x: 6, y: -3}
+    - name: trees_flowers_bushes_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: -3}
+        - {x: -5, y: -4}
+        - {x: -5, y: -12}
+        - {x: -3, y: -16}
+        - {x: 5, y: -16}
+        - {x: 5, y: -4}
+        - {x: 4, y: -3}
+    - name: trees_flowers_bushes_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 1}
+        - {x: -10, y: -14}
+        - {x: -9, y: -16}
+        - {x: 10, y: -16}
+        - {x: 12, y: -12}
+        - {x: 12, y: 1}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

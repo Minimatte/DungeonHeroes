@@ -6,10 +6,9 @@ public class Boss : EnemyFlying {
     private bool canAttack { get { return currentCooldown == 0; } }
     protected float currentCooldown = 0;
 
-
+    protected bool flips = true;
 
     void Update() {
-
         if (!canAttack)
             currentCooldown = Mathf.Clamp(currentCooldown - Time.deltaTime, 0, attackProperties.cooldown);
 
@@ -22,6 +21,12 @@ public class Boss : EnemyFlying {
         } else {
             CheckForTarget();
         }
-        Flip();
+        if (flips)
+            Flip();
+
+        Movement();
     }
+
+    protected virtual void Movement() { }
+
 }

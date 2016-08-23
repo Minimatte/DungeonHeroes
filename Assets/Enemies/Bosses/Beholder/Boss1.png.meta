@@ -1,0 +1,125 @@
+fileFormatVersion: 2
+guid: bba00fec5e469f847bb65c0311f5eaa6
+timeCreated: 1471962680
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Boss1
+    21300002: Boss1_Shield_TopLeft
+    21300004: Boss1_Shield_TopRight
+    21300006: Boss1_Shield_BottomRight
+    21300008: Boss1_Shield_BottomLeft
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 64
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Boss1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 31}
+        - {x: -31, y: 20}
+        - {x: -31, y: -16}
+        - {x: -19, y: -31}
+        - {x: 23, y: -31}
+        - {x: 31, y: -28}
+        - {x: 31, y: 20}
+        - {x: 27, y: 31}
+    - name: Boss1_Shield_TopLeft
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65
+        width: 42
+        height: 31
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Boss1_Shield_TopRight
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 63
+        width: 26
+        height: 33
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Boss1_Shield_BottomRight
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 4
+        width: 38
+        height: 27
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Boss1_Shield_BottomLeft
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4
+        width: 31
+        height: 38
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

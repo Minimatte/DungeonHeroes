@@ -11,12 +11,16 @@ public class Projectile : MonoBehaviour {
     public float lifetime = 1f;
     public bool useTrigger = false;
 
+    public LayerMask hitMask;
+
+    public GameObject hitParticle;
 
     public float damageCooldown;
     private float currentDamageCooldown = 0;
     private bool canDamage {
         get { return currentDamageCooldown == 0; }
     }
+
 
     public void setProjectileSettings(ProjectileSettings settings) // Instantiate an object with this class on, and then call this mehod with a settings object
     {
@@ -44,9 +48,12 @@ public class Projectile : MonoBehaviour {
 
     void OnCollisionEnter2D(Collision2D other) {
 
-        if (other.gameObject.CompareTag("Player"))
-            DealDamage(other.gameObject.GetComponent<Health>());
+        if (hitMask == (hitMask | (1 << other.collider.gameObject.layer)))
+            if (other.gameObject.GetComponent<Health>())
+                DealDamage(other.gameObject.GetComponent<Health>());
 
+        if (hitParticle != null)
+            Destroy(Instantiate(hitParticle, transform.position, Quaternion.identity), 3);
 
         if (destroyOnImpact) {
             Destroy(gameObject);
@@ -66,7 +73,7 @@ public class Projectile : MonoBehaviour {
     }
 
     private void DealDamage(Health player) {
-        if (canDamage) {    
+        if (canDamage) {
             player.takeDamage(damage);
             currentDamageCooldown = damageCooldown;
 

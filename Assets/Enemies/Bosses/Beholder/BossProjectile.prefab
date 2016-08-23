@@ -12,7 +12,7 @@ GameObject:
   - 50: {fileID: 5060842}
   - 60: {fileID: 6021498}
   - 114: {fileID: 11494002}
-  m_Layer: 14
+  m_Layer: 18
   m_Name: BossProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 140602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.134, y: 0.799, z: 0}
+  m_LocalPosition: {x: 2.5212023, y: -1.5877432, z: 0}
   m_LocalScale: {x: 0.35327855, y: 0.35327855, z: 0.35327855}
   m_Children: []
   m_Father: {fileID: 0}
@@ -62,10 +62,13 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -0.5, y: 0.5}
-      - {x: -0.5, y: -0.5}
-      - {x: 0.5, y: -0.5}
-      - {x: 0.5, y: 0.5}
+    - - {x: 0.020313714, y: 0.28747785}
+      - {x: -0.50000083, y: -0.05293747}
+      - {x: -0.027603706, y: -0.37163332}
+      - {x: 0.19619337, y: -0.39007494}
+      - {x: 0.4267169, y: -0.24350779}
+      - {x: 0.42775553, y: 0.16810443}
+      - {x: 0.28014907, y: 0.2801494}
 --- !u!114 &11494002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -83,6 +86,10 @@ MonoBehaviour:
   damage: 0
   lifetime: 10
   useTrigger: 0
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 1280
+  hitParticle: {fileID: 138508, guid: 4543a9fe8772d134a8bac6eb2050bbaa, type: 2}
   damageCooldown: 0.1
 --- !u!212 &21252360
 SpriteRenderer:
@@ -120,7 +127,19 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: hitMask.m_Bits
+      value: 1280
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: hitParticle
+      value: 
+      objectReference: {fileID: 138508, guid: 4543a9fe8772d134a8bac6eb2050bbaa, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 140602}

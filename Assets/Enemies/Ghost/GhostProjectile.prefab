@@ -12,7 +12,7 @@ GameObject:
   - 50: {fileID: 5095072}
   - 60: {fileID: 6050686}
   - 114: {fileID: 11450708}
-  m_Layer: 14
+  m_Layer: 15
   m_Name: GhostProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,6 +83,9 @@ MonoBehaviour:
   damage: 10
   lifetime: 10
   useTrigger: 0
+  hitMask:
+    serializedVersion: 2
+    m_Bits: 1024
   damageCooldown: 0.1
 --- !u!212 &21228858
 SpriteRenderer:
@@ -159,7 +162,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_Layer
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_FlipY
@@ -168,6 +171,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_FlipX
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: hitMask.m_Bits
+      value: 1024
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

@@ -8,8 +8,13 @@ public class BeholderHealth : Health {
     public int shields = 4;
 
     public override void takeDamage(float damageToTake) {
-        if (!hasShield)
+        if (!hasShield) {
+            if (transform.childCount > 0)
+                foreach (Transform child in transform)
+                    Destroy(child.gameObject);
+
             base.takeDamage(damageToTake);
+        }
     }
 
     void Update() {

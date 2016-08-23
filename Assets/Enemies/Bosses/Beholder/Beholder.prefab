@@ -65,6 +65,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 456024}
+  - 95: {fileID: 9586508}
   m_Layer: 16
   m_Name: Shield
   m_TagString: Untagged
@@ -286,7 +287,7 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.484375
+  m_Radius: 0.33249667
 --- !u!60 &6008116
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -380,6 +381,23 @@ PolygonCollider2D:
       - {x: -0.19151844, y: 0.1707469}
       - {x: -0.09008605, y: 0.20013809}
       - {x: 0.013859481, y: 0.44741663}
+--- !u!95 &9586508
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172976}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6429245f90b0a8043aa1c6128d1f46c6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11407152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -391,6 +409,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20390c81511282640a851330228ffd81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  healthRegen: 0
+  hasDamageFrames: 0
+  damageFramesTime: 0.5
+  deathEffects: []
+  deathSoundEffects: []
+  shieldId: 2
 --- !u!114 &11452224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -402,6 +428,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20390c81511282640a851330228ffd81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  healthRegen: 0
+  hasDamageFrames: 0
+  damageFramesTime: 0.5
+  deathEffects: []
+  deathSoundEffects: []
+  shieldId: 0
 --- !u!114 &11456864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -432,6 +466,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20390c81511282640a851330228ffd81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  healthRegen: 0
+  hasDamageFrames: 0
+  damageFramesTime: 0.5
+  deathEffects: []
+  deathSoundEffects: []
+  shieldId: 3
 --- !u!114 &11458440
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -443,6 +485,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20390c81511282640a851330228ffd81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxHealth: 100
+  currentHealth: 100
+  healthRegen: 0
+  hasDamageFrames: 0
+  damageFramesTime: 0.5
+  deathEffects: []
+  deathSoundEffects: []
+  shieldId: 1
 --- !u!114 &11485930
 MonoBehaviour:
   m_ObjectHideFlags: 1

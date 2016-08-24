@@ -451,7 +451,7 @@ MonoBehaviour:
   currentHealth: 250
   healthRegen: 0
   hasDamageFrames: 0
-  damageFramesTime: 0.5
+  damageFramesTime: 0.1
   deathEffects: []
   deathSoundEffects: []
   shields: 4

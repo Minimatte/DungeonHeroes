@@ -173,7 +173,7 @@ public class PlayerMovement2D : MonoBehaviour {
     {
         if (coll.gameObject.layer == LayerMask.NameToLayer("Ground") && coll.relativeVelocity.magnitude > jumpForce) {
             Instantiate(jumpEffect, transform.position + Vector3.up * 0.08f, Quaternion.identity);
-            Camera.main.GetComponent<CameraMovement2D>().ShakeCamera();
+            Camera.main.GetComponent<CameraMovement2D>().ShakeCamera(0.1f, 1);
             AudioSource.PlayClipAtPoint(Resources.Load("Sound/Effects/ImpactSound01") as AudioClip, transform.position);
         }
     }

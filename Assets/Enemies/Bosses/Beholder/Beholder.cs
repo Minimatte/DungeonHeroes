@@ -4,6 +4,11 @@ using System.Collections;
 public class Beholder : Boss {
 
     public GameObject projectilePrefab;
+    private BeholderHealth health;
+    void Awake() {
+        health = GetComponent<BeholderHealth>();
+    }
+
     void Start() {
         flips = false;
     }
@@ -13,30 +18,47 @@ public class Beholder : Boss {
     }
 
     protected override void Attack() {
-        var rand = Random.Range(0, 3);
-        switch (rand) {
-            case 0:
-                StartCoroutine(SpinAttack());
-                break;
-            case 1:
-                StartCoroutine(ShotgunAttack());
-                break;
-            case 2:
-                StartCoroutine(Wave());
-                break;
+        if (health.hasShield) {
+            var rand = Random.Range(0, 3);
+            switch (rand) {
+                case 0:
+                    StartCoroutine(SpinAttack());
+                    break;
+                case 1:
+                    StartCoroutine(ShotgunAttack());
+                    break;
+                case 2:
+                    StartCoroutine(Wave());
+                    break;
+            }
+        } else {
+            StartCoroutine(FocusAttack());
         }
+    }
+
+    private IEnumerator FocusAttack() {
+        yield return new WaitForSeconds(0.05f);
+        currentCooldown = 0.1f;
+
+        var direction = (target.position - transform.position).normalized;
+        var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+        Instantiate(projectilePrefab, transform.position, Quaternion.Euler(0, 0, angle));
+        Instantiate(projectilePrefab, transform.position, Quaternion.Euler(0, 0, angle - 5));
+        Instantiate(projectilePrefab, transform.position, Quaternion.Euler(0, 0, angle + 5));
     }
 
     private IEnumerator SpinAttack() {
         for (int i = 0; i < 940; i += 15) {
             currentCooldown = attackProperties.cooldown;
             Instantiate(projectilePrefab, transform.position, Quaternion.Euler(0, 0, i));
+            Instantiate(projectilePrefab, transform.position, Quaternion.Euler(0, 0, i + 180));
             yield return new WaitForSeconds(0.05f);
         }
     }
 
     private IEnumerator ShotgunAttack() {
-        for (int i = 360; i > 0; i -= 60) {
+        for (int i = 360; i > 0; i -= 15) {
             currentCooldown = attackProperties.cooldown;
             Instantiate(projectilePrefab, transform.position, Quaternion.Euler(0, 0, i));
             Instantiate(projectilePrefab, transform.position, Quaternion.Euler(0, 0, i + 90));
@@ -55,7 +77,6 @@ public class Beholder : Boss {
                 currentCooldown = attackProperties.cooldown;
                 direction = Quaternion.AngleAxis(i, Vector3.up) * direction;
                 Instantiate(projectilePrefab, transform.position, Quaternion.Euler(0, 0, i + angle));
-                Debug.DrawLine(transform.position, direction * 40);
             }
 
             yield return new WaitForSeconds(1);

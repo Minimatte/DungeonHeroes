@@ -15,6 +15,7 @@ public class BeholderShield : Health {
             return;
 
         base.takeDamage(damageToTake);
-        GetComponentInParent<Animator>().SetTrigger("TakeDamage" + shieldId);
+        if (GetComponentInParent<Animator>())
+            GetComponentInParent<Animator>().SetTrigger("TakeDamage" + shieldId);
     }
 }

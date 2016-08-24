@@ -15,7 +15,7 @@ public class SlimeAI : EnemyJumping {
         }
 
         if (slimeWalkEffect != null) {
-            Instantiate(slimeWalkEffect, collision.contacts[0].point + new Vector2(Mathf.Abs(transform.localScale.x / 2), 0), Quaternion.identity);
+            Destroy(Instantiate(slimeWalkEffect, collision.contacts[0].point + new Vector2(Mathf.Abs(transform.localScale.x / 2), 0.08f), Quaternion.identity), 3);
         }
     }
 

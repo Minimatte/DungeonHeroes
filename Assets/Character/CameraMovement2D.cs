@@ -46,9 +46,10 @@ public class CameraMovement2D : MonoBehaviour
         }
     }
 
-    public void ShakeCamera()
+    public void ShakeCamera(float amount, float time)
     {
-        shake = 0.1f;
+        decreaseFactor = time;
+        shake = amount;
     }
 
 

@@ -88,7 +88,7 @@ MonoBehaviour:
   upForce: 500
   forwardForce: 500
   jumpInterval: 2
-  slimeWalk: {fileID: 116708, guid: 10373799967e32946a568259cf4bc66d, type: 2}
+  slimeWalkEffect: {fileID: 116708, guid: 10373799967e32946a568259cf4bc66d, type: 2}
 --- !u!114 &11444364
 MonoBehaviour:
   m_ObjectHideFlags: 1

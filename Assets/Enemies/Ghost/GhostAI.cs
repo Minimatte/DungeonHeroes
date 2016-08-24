@@ -39,7 +39,8 @@ public class GhostAI : EnemyFlying {
         var direction = (target.position - transform.position);
         var dir = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
-        Instantiate(ghostProjectile, transform.position, Quaternion.Euler(new Vector3(0, 0, dir)));
+        GameObject go = (GameObject)Instantiate(ghostProjectile, transform.position, Quaternion.Euler(new Vector3(0, 0, dir))) as GameObject;
+        go.GetComponent<Projectile>().damage = attackProperties.damage;
         currentCooldown = attackProperties.cooldown;
     }
 }

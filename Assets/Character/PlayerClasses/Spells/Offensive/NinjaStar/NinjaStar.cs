@@ -10,7 +10,6 @@ public class NinjaStar : OffensiveSpell {
         GameObject star = Instantiate(ProjectilePrefab, transform.position, Quaternion.AngleAxis(90 - 90 * transform.localScale.x, Vector3.up)) as GameObject;
 
         star.GetComponent<NinjaStarProjectile>().damage = GetComponent<HeroClass>().hero.power;
-
     }
 
     protected override void Init() {

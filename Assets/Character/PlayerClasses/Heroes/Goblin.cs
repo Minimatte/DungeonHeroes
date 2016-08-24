@@ -8,7 +8,7 @@ public class Goblin : Hero {
         heroName = "Goblin";
         headIcon = null;
         spriteName = "Goblin";
-        offensiveSpell = typeof(CrossSlash);
+        offensiveSpell = typeof(NinjaStar);
         defensiveSpell = typeof(FlashJump);
 
         health = 40;

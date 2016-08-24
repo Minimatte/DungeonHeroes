@@ -24,7 +24,6 @@ public class Whirlwind : OffensiveSpell {
         for (int x = 0; x < hits.Length; x++) {
             if (hits[x].GetComponent<Health>()) {
                 hits[x].GetComponent<Health>().takeDamage(power);
-                print("hit");
             }
         }
 

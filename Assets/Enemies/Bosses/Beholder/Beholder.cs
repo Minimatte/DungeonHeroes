@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Beholder : Boss {
 
+
     public GameObject projectilePrefab;
     private BeholderHealth health;
     void Awake() {
@@ -18,6 +19,8 @@ public class Beholder : Boss {
     }
 
     protected override void Attack() {
+    
+
         if (health.hasShield) {
             var rand = Random.Range(0, 3);
             switch (rand) {

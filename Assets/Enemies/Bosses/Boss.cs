@@ -2,13 +2,16 @@
 using System.Collections;
 
 public class Boss : EnemyFlying {
-
+    public bool active = false;
     private bool canAttack { get { return currentCooldown == 0; } }
     protected float currentCooldown = 0;
 
     protected bool flips = true;
 
     void Update() {
+        if (!active)
+            return;
+
         if (!canAttack)
             currentCooldown = Mathf.Clamp(currentCooldown - Time.deltaTime, 0, attackProperties.cooldown);
 

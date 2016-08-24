@@ -8,7 +8,6 @@ public class Fireball : OffensiveSpell {
     protected override void ActivateSpell() {
 
         GameObject go = ((GameObject)Instantiate(ProjectilePrefab, transform.position + Vector3.up * 0.16f, Quaternion.AngleAxis(90 - 90 * transform.localScale.x, Vector3.up)));
-        go.layer = gameObject.layer;
         go.GetComponent<Projectile>().damage = power;
     }
 

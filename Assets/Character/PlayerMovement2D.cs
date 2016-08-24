@@ -28,6 +28,8 @@ public class PlayerMovement2D : MonoBehaviour {
     private Animator anim;
     private GameObject jumpEffect;
 
+    public float strafeCooldown = 0;
+
     void Start() {
         jumpEffect = Resources.Load<GameObject>("Animations/SmokeJump/Smoke_JumpEffect");
         if (GetComponent<RandomizedClass>())
@@ -36,11 +38,6 @@ public class PlayerMovement2D : MonoBehaviour {
         if (GetComponent<Animator>())
             anim = GetComponent<Animator>();
 
-    }
-
-    public void OnLevelWasLoaded(int level) {
-        if (level != 0)
-            Camera.main.GetComponent<CameraMovement2D>().player = gameObject;
     }
 
     public bool canMoveX {
@@ -61,6 +58,9 @@ public class PlayerMovement2D : MonoBehaviour {
     void Update() {
         Interact();
         UpdateStamina();
+
+        if (strafeCooldown > 0)
+            strafeCooldown = Mathf.Clamp(strafeCooldown - Time.deltaTime, 0, 10);
     }
 
 
@@ -84,7 +84,6 @@ public class PlayerMovement2D : MonoBehaviour {
                             transform.position = Vector3.one;
                         }
                         break;
-
                 }
         }
 
@@ -124,9 +123,9 @@ public class PlayerMovement2D : MonoBehaviour {
         Debug.DrawLine(rightGroundCheck.transform.position, new Vector3(rightGroundCheck.transform.position.x, rightGroundCheck.transform.position.y - 0.16f, rightGroundCheck.transform.position.z));
         groundedRight = Physics2D.Linecast(playerPos, groundPos, 1 << LayerMask.NameToLayer("Ground"));
 
-        if (xInput > 0 && !facingRight)
+        if (xInput > 0 && !facingRight && strafeCooldown == 0)
             Flip();
-        else if (xInput < 0 && facingRight)
+        else if (xInput < 0 && facingRight && strafeCooldown == 0)
             Flip();
 
         if (Input.GetButtonDown("Jump")) {

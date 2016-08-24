@@ -6,12 +6,13 @@ public class Whirlwind : OffensiveSpell {
     private float cooldownRemain = 0;
     private float cooldown = 0.1f;
     private float aoe = 2;
-    public LayerMask hitMask = ((1 << LayerMask.NameToLayer("Enemy")) | (1 << LayerMask.NameToLayer("FlyingEnemy")));
+    public LayerMask hitMask;
 
     private bool active = false;
     private GameObject vfx;
     private GameObject vfxInstance;
     protected override void Init() {
+        hitMask = ((1 << LayerMask.NameToLayer("Enemy")) | (1 << LayerMask.NameToLayer("FlyingEnemy")));
         spellName = "Whirlwind";
         manaCost = 1;
         power = 5;

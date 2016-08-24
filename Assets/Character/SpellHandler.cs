@@ -9,7 +9,7 @@ public class SpellHandler : MonoBehaviour {
 
     public OffensiveSpell offensive;
     public DefensiveSpell defensive;
-
+    public bool canStrafe = true;
 
     void Start() {
         UpdateSpells();
@@ -33,9 +33,11 @@ public class SpellHandler : MonoBehaviour {
     void Update() {
         offensive = GetComponent<OffensiveSpell>();
         defensive = GetComponent<DefensiveSpell>();
-        UIManager.UpdateSpellIcons();   
+        UIManager.UpdateSpellIcons();
         if (Input.GetButtonDown("OffensiveSpell") && !offensive.passive) {
             offensive.UseSpell();
+            if (canStrafe)
+                GetComponent<PlayerMovement2D>().strafeCooldown = 0.3f;
         }
 
         if (Input.GetButtonDown("DefensiveSpell") && !defensive.passive) {

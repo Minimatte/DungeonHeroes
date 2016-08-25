@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f75ff6477f154f340964934d18f9d703
-timeCreated: 1472059768
+timeCreated: 1472137796
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -346,11 +346,14 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 16
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: bricks.db32_0
+    - serializedVersion: 2
+      name: bricks.db32_0
       rect:
         serializedVersion: 2
         x: 0
@@ -361,7 +364,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_1
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_1
       rect:
         serializedVersion: 2
         x: 16
@@ -372,7 +377,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_2
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_2
       rect:
         serializedVersion: 2
         x: 32
@@ -383,7 +390,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_3
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_3
       rect:
         serializedVersion: 2
         x: 48
@@ -394,7 +403,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_4
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_4
       rect:
         serializedVersion: 2
         x: 64
@@ -405,7 +416,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_5
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_5
       rect:
         serializedVersion: 2
         x: 80
@@ -416,7 +429,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_6
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_6
       rect:
         serializedVersion: 2
         x: 96
@@ -427,7 +442,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_7
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_7
       rect:
         serializedVersion: 2
         x: 112
@@ -438,7 +455,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_8
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_8
       rect:
         serializedVersion: 2
         x: 128
@@ -449,7 +468,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_9
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_9
       rect:
         serializedVersion: 2
         x: 144
@@ -460,7 +481,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_10
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_10
       rect:
         serializedVersion: 2
         x: 160
@@ -471,7 +494,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_11
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_11
       rect:
         serializedVersion: 2
         x: 176
@@ -482,7 +507,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_12
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_12
       rect:
         serializedVersion: 2
         x: 192
@@ -493,7 +520,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_13
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_13
       rect:
         serializedVersion: 2
         x: 208
@@ -504,7 +533,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_14
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_14
       rect:
         serializedVersion: 2
         x: 224
@@ -515,7 +546,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_15
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_15
       rect:
         serializedVersion: 2
         x: 240
@@ -526,7 +559,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_16
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_16
       rect:
         serializedVersion: 2
         x: 0
@@ -537,7 +572,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_17
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_17
       rect:
         serializedVersion: 2
         x: 16
@@ -548,7 +585,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_18
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_18
       rect:
         serializedVersion: 2
         x: 32
@@ -559,7 +598,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_19
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_19
       rect:
         serializedVersion: 2
         x: 48
@@ -570,7 +611,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_20
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_20
       rect:
         serializedVersion: 2
         x: 64
@@ -581,7 +624,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_21
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_21
       rect:
         serializedVersion: 2
         x: 80
@@ -592,7 +637,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_22
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_22
       rect:
         serializedVersion: 2
         x: 96
@@ -603,7 +650,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_23
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_23
       rect:
         serializedVersion: 2
         x: 112
@@ -614,7 +663,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_24
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_24
       rect:
         serializedVersion: 2
         x: 128
@@ -625,7 +676,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_25
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_25
       rect:
         serializedVersion: 2
         x: 144
@@ -636,7 +689,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_26
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_26
       rect:
         serializedVersion: 2
         x: 160
@@ -647,7 +702,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_27
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_27
       rect:
         serializedVersion: 2
         x: 176
@@ -658,7 +715,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_28
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_28
       rect:
         serializedVersion: 2
         x: 192
@@ -669,7 +728,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_29
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_29
       rect:
         serializedVersion: 2
         x: 208
@@ -680,7 +741,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_30
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_30
       rect:
         serializedVersion: 2
         x: 224
@@ -691,7 +754,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_31
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_31
       rect:
         serializedVersion: 2
         x: 240
@@ -702,7 +767,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_32
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_32
       rect:
         serializedVersion: 2
         x: 0
@@ -713,7 +780,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_33
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_33
       rect:
         serializedVersion: 2
         x: 16
@@ -724,7 +793,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_34
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_34
       rect:
         serializedVersion: 2
         x: 32
@@ -735,7 +806,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_35
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_35
       rect:
         serializedVersion: 2
         x: 48
@@ -746,7 +819,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_36
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_36
       rect:
         serializedVersion: 2
         x: 64
@@ -757,7 +832,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_37
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_37
       rect:
         serializedVersion: 2
         x: 80
@@ -768,7 +845,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_38
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_38
       rect:
         serializedVersion: 2
         x: 96
@@ -779,7 +858,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_39
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_39
       rect:
         serializedVersion: 2
         x: 112
@@ -790,7 +871,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_40
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_40
       rect:
         serializedVersion: 2
         x: 128
@@ -801,7 +884,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_41
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_41
       rect:
         serializedVersion: 2
         x: 144
@@ -812,7 +897,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_42
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_42
       rect:
         serializedVersion: 2
         x: 160
@@ -823,7 +910,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_43
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_43
       rect:
         serializedVersion: 2
         x: 176
@@ -834,7 +923,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_44
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_44
       rect:
         serializedVersion: 2
         x: 192
@@ -845,7 +936,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_45
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_45
       rect:
         serializedVersion: 2
         x: 208
@@ -856,7 +949,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_46
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_46
       rect:
         serializedVersion: 2
         x: 224
@@ -867,7 +962,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_47
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_47
       rect:
         serializedVersion: 2
         x: 240
@@ -878,7 +975,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_48
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_48
       rect:
         serializedVersion: 2
         x: 0
@@ -889,7 +988,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_49
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_49
       rect:
         serializedVersion: 2
         x: 16
@@ -900,7 +1001,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_50
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_50
       rect:
         serializedVersion: 2
         x: 32
@@ -911,7 +1014,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_51
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_51
       rect:
         serializedVersion: 2
         x: 48
@@ -922,7 +1027,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_52
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_52
       rect:
         serializedVersion: 2
         x: 64
@@ -933,7 +1040,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_53
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_53
       rect:
         serializedVersion: 2
         x: 80
@@ -944,7 +1053,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_54
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_54
       rect:
         serializedVersion: 2
         x: 96
@@ -955,7 +1066,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_55
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_55
       rect:
         serializedVersion: 2
         x: 112
@@ -966,7 +1079,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_56
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_56
       rect:
         serializedVersion: 2
         x: 128
@@ -977,7 +1092,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_57
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_57
       rect:
         serializedVersion: 2
         x: 144
@@ -988,7 +1105,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_58
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_58
       rect:
         serializedVersion: 2
         x: 160
@@ -999,7 +1118,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_59
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_59
       rect:
         serializedVersion: 2
         x: 208
@@ -1010,7 +1131,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_60
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_60
       rect:
         serializedVersion: 2
         x: 224
@@ -1021,7 +1144,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_61
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_61
       rect:
         serializedVersion: 2
         x: 240
@@ -1032,7 +1157,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_62
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_62
       rect:
         serializedVersion: 2
         x: 0
@@ -1043,7 +1170,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_63
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_63
       rect:
         serializedVersion: 2
         x: 16
@@ -1054,7 +1183,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_64
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_64
       rect:
         serializedVersion: 2
         x: 32
@@ -1065,7 +1196,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_65
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_65
       rect:
         serializedVersion: 2
         x: 48
@@ -1076,7 +1209,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_66
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_66
       rect:
         serializedVersion: 2
         x: 64
@@ -1087,7 +1222,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_67
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_67
       rect:
         serializedVersion: 2
         x: 80
@@ -1098,7 +1235,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_68
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_68
       rect:
         serializedVersion: 2
         x: 96
@@ -1109,7 +1248,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_69
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_69
       rect:
         serializedVersion: 2
         x: 112
@@ -1120,7 +1261,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_70
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_70
       rect:
         serializedVersion: 2
         x: 128
@@ -1131,7 +1274,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_71
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_71
       rect:
         serializedVersion: 2
         x: 144
@@ -1142,7 +1287,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_72
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_72
       rect:
         serializedVersion: 2
         x: 160
@@ -1153,7 +1300,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_73
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_73
       rect:
         serializedVersion: 2
         x: 208
@@ -1164,7 +1313,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_74
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_74
       rect:
         serializedVersion: 2
         x: 224
@@ -1175,7 +1326,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_75
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_75
       rect:
         serializedVersion: 2
         x: 240
@@ -1186,7 +1339,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_76
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_76
       rect:
         serializedVersion: 2
         x: 0
@@ -1197,7 +1352,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_77
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_77
       rect:
         serializedVersion: 2
         x: 16
@@ -1208,7 +1365,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_78
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_78
       rect:
         serializedVersion: 2
         x: 32
@@ -1219,7 +1378,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_79
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_79
       rect:
         serializedVersion: 2
         x: 48
@@ -1230,7 +1391,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_80
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_80
       rect:
         serializedVersion: 2
         x: 64
@@ -1241,7 +1404,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_81
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_81
       rect:
         serializedVersion: 2
         x: 80
@@ -1252,7 +1417,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_82
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_82
       rect:
         serializedVersion: 2
         x: 96
@@ -1263,7 +1430,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_83
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_83
       rect:
         serializedVersion: 2
         x: 112
@@ -1274,7 +1443,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_84
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_84
       rect:
         serializedVersion: 2
         x: 128
@@ -1285,7 +1456,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_85
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_85
       rect:
         serializedVersion: 2
         x: 144
@@ -1296,7 +1469,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_86
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_86
       rect:
         serializedVersion: 2
         x: 160
@@ -1307,7 +1482,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_87
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_87
       rect:
         serializedVersion: 2
         x: 208
@@ -1318,7 +1495,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_88
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_88
       rect:
         serializedVersion: 2
         x: 224
@@ -1329,7 +1508,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_89
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_89
       rect:
         serializedVersion: 2
         x: 240
@@ -1340,7 +1521,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_90
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_90
       rect:
         serializedVersion: 2
         x: 0
@@ -1351,7 +1534,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_91
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_91
       rect:
         serializedVersion: 2
         x: 16
@@ -1362,7 +1547,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_92
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_92
       rect:
         serializedVersion: 2
         x: 32
@@ -1373,7 +1560,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_93
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_93
       rect:
         serializedVersion: 2
         x: 48
@@ -1384,7 +1573,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_94
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_94
       rect:
         serializedVersion: 2
         x: 64
@@ -1395,7 +1586,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_95
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_95
       rect:
         serializedVersion: 2
         x: 80
@@ -1406,7 +1599,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_96
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_96
       rect:
         serializedVersion: 2
         x: 96
@@ -1417,7 +1612,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_97
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_97
       rect:
         serializedVersion: 2
         x: 112
@@ -1428,7 +1625,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_98
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_98
       rect:
         serializedVersion: 2
         x: 128
@@ -1439,7 +1638,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_99
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_99
       rect:
         serializedVersion: 2
         x: 144
@@ -1450,7 +1651,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_100
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_100
       rect:
         serializedVersion: 2
         x: 160
@@ -1461,7 +1664,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_101
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_101
       rect:
         serializedVersion: 2
         x: 208
@@ -1472,7 +1677,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_102
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_102
       rect:
         serializedVersion: 2
         x: 224
@@ -1483,7 +1690,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_103
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_103
       rect:
         serializedVersion: 2
         x: 240
@@ -1494,7 +1703,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_104
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_104
       rect:
         serializedVersion: 2
         x: 0
@@ -1505,7 +1716,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_105
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_105
       rect:
         serializedVersion: 2
         x: 16
@@ -1516,7 +1729,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_106
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_106
       rect:
         serializedVersion: 2
         x: 32
@@ -1527,7 +1742,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_107
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_107
       rect:
         serializedVersion: 2
         x: 48
@@ -1538,7 +1755,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_108
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_108
       rect:
         serializedVersion: 2
         x: 64
@@ -1549,7 +1768,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_109
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_109
       rect:
         serializedVersion: 2
         x: 80
@@ -1560,7 +1781,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_110
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_110
       rect:
         serializedVersion: 2
         x: 96
@@ -1571,7 +1794,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_111
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_111
       rect:
         serializedVersion: 2
         x: 112
@@ -1582,7 +1807,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_112
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_112
       rect:
         serializedVersion: 2
         x: 128
@@ -1593,7 +1820,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_113
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_113
       rect:
         serializedVersion: 2
         x: 144
@@ -1604,7 +1833,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_114
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_114
       rect:
         serializedVersion: 2
         x: 160
@@ -1615,7 +1846,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_115
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_115
       rect:
         serializedVersion: 2
         x: 208
@@ -1626,7 +1859,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_116
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_116
       rect:
         serializedVersion: 2
         x: 224
@@ -1637,7 +1872,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_117
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_117
       rect:
         serializedVersion: 2
         x: 240
@@ -1648,7 +1885,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_118
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_118
       rect:
         serializedVersion: 2
         x: 0
@@ -1659,7 +1898,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_119
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_119
       rect:
         serializedVersion: 2
         x: 16
@@ -1670,7 +1911,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_120
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_120
       rect:
         serializedVersion: 2
         x: 32
@@ -1681,7 +1924,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_121
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_121
       rect:
         serializedVersion: 2
         x: 48
@@ -1692,7 +1937,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_122
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_122
       rect:
         serializedVersion: 2
         x: 64
@@ -1703,7 +1950,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_123
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_123
       rect:
         serializedVersion: 2
         x: 80
@@ -1714,7 +1963,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_124
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_124
       rect:
         serializedVersion: 2
         x: 96
@@ -1725,7 +1976,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_125
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_125
       rect:
         serializedVersion: 2
         x: 112
@@ -1736,7 +1989,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_126
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_126
       rect:
         serializedVersion: 2
         x: 128
@@ -1747,7 +2002,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_127
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_127
       rect:
         serializedVersion: 2
         x: 144
@@ -1758,7 +2015,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_128
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_128
       rect:
         serializedVersion: 2
         x: 160
@@ -1769,7 +2028,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_129
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_129
       rect:
         serializedVersion: 2
         x: 208
@@ -1780,7 +2041,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_130
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_130
       rect:
         serializedVersion: 2
         x: 224
@@ -1791,7 +2054,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_131
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_131
       rect:
         serializedVersion: 2
         x: 240
@@ -1802,7 +2067,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_132
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_132
       rect:
         serializedVersion: 2
         x: 0
@@ -1813,7 +2080,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_133
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_133
       rect:
         serializedVersion: 2
         x: 16
@@ -1824,7 +2093,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_134
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_134
       rect:
         serializedVersion: 2
         x: 32
@@ -1835,7 +2106,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_135
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_135
       rect:
         serializedVersion: 2
         x: 48
@@ -1846,7 +2119,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_136
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_136
       rect:
         serializedVersion: 2
         x: 64
@@ -1857,7 +2132,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_137
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_137
       rect:
         serializedVersion: 2
         x: 80
@@ -1868,7 +2145,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_138
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_138
       rect:
         serializedVersion: 2
         x: 96
@@ -1879,7 +2158,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_139
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_139
       rect:
         serializedVersion: 2
         x: 112
@@ -1890,7 +2171,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_140
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_140
       rect:
         serializedVersion: 2
         x: 128
@@ -1901,7 +2184,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_141
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_141
       rect:
         serializedVersion: 2
         x: 144
@@ -1912,7 +2197,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_142
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_142
       rect:
         serializedVersion: 2
         x: 160
@@ -1923,7 +2210,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_143
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_143
       rect:
         serializedVersion: 2
         x: 208
@@ -1934,7 +2223,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_144
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_144
       rect:
         serializedVersion: 2
         x: 224
@@ -1945,7 +2236,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_145
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_145
       rect:
         serializedVersion: 2
         x: 240
@@ -1956,7 +2249,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_146
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_146
       rect:
         serializedVersion: 2
         x: 0
@@ -1967,7 +2262,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_147
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_147
       rect:
         serializedVersion: 2
         x: 16
@@ -1978,7 +2275,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_148
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_148
       rect:
         serializedVersion: 2
         x: 32
@@ -1989,7 +2288,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_149
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_149
       rect:
         serializedVersion: 2
         x: 48
@@ -2000,7 +2301,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_150
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_150
       rect:
         serializedVersion: 2
         x: 64
@@ -2011,7 +2314,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_151
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_151
       rect:
         serializedVersion: 2
         x: 80
@@ -2022,7 +2327,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_152
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_152
       rect:
         serializedVersion: 2
         x: 96
@@ -2033,7 +2340,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_153
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_153
       rect:
         serializedVersion: 2
         x: 112
@@ -2044,7 +2353,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_154
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_154
       rect:
         serializedVersion: 2
         x: 128
@@ -2055,7 +2366,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_155
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_155
       rect:
         serializedVersion: 2
         x: 144
@@ -2066,7 +2379,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_156
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_156
       rect:
         serializedVersion: 2
         x: 160
@@ -2077,7 +2392,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_157
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_157
       rect:
         serializedVersion: 2
         x: 208
@@ -2088,7 +2405,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_158
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_158
       rect:
         serializedVersion: 2
         x: 224
@@ -2099,7 +2418,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_159
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_159
       rect:
         serializedVersion: 2
         x: 240
@@ -2110,7 +2431,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_160
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_160
       rect:
         serializedVersion: 2
         x: 0
@@ -2121,7 +2444,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_161
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_161
       rect:
         serializedVersion: 2
         x: 16
@@ -2132,7 +2457,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_162
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_162
       rect:
         serializedVersion: 2
         x: 32
@@ -2143,7 +2470,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_163
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_163
       rect:
         serializedVersion: 2
         x: 48
@@ -2154,7 +2483,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_164
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_164
       rect:
         serializedVersion: 2
         x: 64
@@ -2165,7 +2496,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_165
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_165
       rect:
         serializedVersion: 2
         x: 80
@@ -2176,7 +2509,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_166
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_166
       rect:
         serializedVersion: 2
         x: 96
@@ -2187,7 +2522,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_167
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_167
       rect:
         serializedVersion: 2
         x: 112
@@ -2198,7 +2535,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_168
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_168
       rect:
         serializedVersion: 2
         x: 128
@@ -2209,7 +2548,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_169
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_169
       rect:
         serializedVersion: 2
         x: 144
@@ -2220,7 +2561,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_170
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_170
       rect:
         serializedVersion: 2
         x: 160
@@ -2231,7 +2574,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_171
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_171
       rect:
         serializedVersion: 2
         x: 208
@@ -2242,7 +2587,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_172
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_172
       rect:
         serializedVersion: 2
         x: 224
@@ -2253,7 +2600,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_173
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_173
       rect:
         serializedVersion: 2
         x: 240
@@ -2264,7 +2613,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_174
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_174
       rect:
         serializedVersion: 2
         x: 0
@@ -2275,7 +2626,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_175
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_175
       rect:
         serializedVersion: 2
         x: 16
@@ -2286,7 +2639,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_176
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_176
       rect:
         serializedVersion: 2
         x: 32
@@ -2297,7 +2652,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_177
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_177
       rect:
         serializedVersion: 2
         x: 48
@@ -2308,7 +2665,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_178
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_178
       rect:
         serializedVersion: 2
         x: 64
@@ -2319,7 +2678,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_179
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_179
       rect:
         serializedVersion: 2
         x: 80
@@ -2330,7 +2691,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_180
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_180
       rect:
         serializedVersion: 2
         x: 96
@@ -2341,7 +2704,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_181
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_181
       rect:
         serializedVersion: 2
         x: 112
@@ -2352,7 +2717,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_182
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_182
       rect:
         serializedVersion: 2
         x: 128
@@ -2363,7 +2730,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_183
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_183
       rect:
         serializedVersion: 2
         x: 144
@@ -2374,7 +2743,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_184
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_184
       rect:
         serializedVersion: 2
         x: 160
@@ -2385,7 +2756,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_185
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_185
       rect:
         serializedVersion: 2
         x: 208
@@ -2396,7 +2769,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_186
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_186
       rect:
         serializedVersion: 2
         x: 224
@@ -2407,7 +2782,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_187
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_187
       rect:
         serializedVersion: 2
         x: 240
@@ -2418,7 +2795,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_188
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_188
       rect:
         serializedVersion: 2
         x: 0
@@ -2429,7 +2808,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_189
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_189
       rect:
         serializedVersion: 2
         x: 16
@@ -2440,7 +2821,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_190
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_190
       rect:
         serializedVersion: 2
         x: 32
@@ -2451,7 +2834,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_191
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_191
       rect:
         serializedVersion: 2
         x: 48
@@ -2462,7 +2847,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_192
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_192
       rect:
         serializedVersion: 2
         x: 64
@@ -2473,7 +2860,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_193
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_193
       rect:
         serializedVersion: 2
         x: 80
@@ -2484,7 +2873,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_194
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_194
       rect:
         serializedVersion: 2
         x: 96
@@ -2495,7 +2886,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_195
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_195
       rect:
         serializedVersion: 2
         x: 112
@@ -2506,7 +2899,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_196
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_196
       rect:
         serializedVersion: 2
         x: 128
@@ -2517,7 +2912,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_197
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_197
       rect:
         serializedVersion: 2
         x: 144
@@ -2528,7 +2925,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_198
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_198
       rect:
         serializedVersion: 2
         x: 160
@@ -2539,7 +2938,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_199
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_199
       rect:
         serializedVersion: 2
         x: 208
@@ -2550,7 +2951,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_200
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_200
       rect:
         serializedVersion: 2
         x: 224
@@ -2561,7 +2964,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_201
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_201
       rect:
         serializedVersion: 2
         x: 240
@@ -2572,7 +2977,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_202
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_202
       rect:
         serializedVersion: 2
         x: 0
@@ -2583,7 +2990,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_203
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_203
       rect:
         serializedVersion: 2
         x: 16
@@ -2594,7 +3003,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_204
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_204
       rect:
         serializedVersion: 2
         x: 32
@@ -2605,7 +3016,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_205
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_205
       rect:
         serializedVersion: 2
         x: 48
@@ -2616,7 +3029,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_206
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_206
       rect:
         serializedVersion: 2
         x: 64
@@ -2627,7 +3042,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_207
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_207
       rect:
         serializedVersion: 2
         x: 80
@@ -2638,7 +3055,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_208
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_208
       rect:
         serializedVersion: 2
         x: 96
@@ -2649,7 +3068,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_209
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_209
       rect:
         serializedVersion: 2
         x: 112
@@ -2660,7 +3081,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_210
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_210
       rect:
         serializedVersion: 2
         x: 128
@@ -2671,7 +3094,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_211
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_211
       rect:
         serializedVersion: 2
         x: 144
@@ -2682,7 +3107,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_212
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_212
       rect:
         serializedVersion: 2
         x: 160
@@ -2693,7 +3120,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_213
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_213
       rect:
         serializedVersion: 2
         x: 208
@@ -2704,7 +3133,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_214
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_214
       rect:
         serializedVersion: 2
         x: 224
@@ -2715,7 +3146,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_215
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_215
       rect:
         serializedVersion: 2
         x: 240
@@ -2726,7 +3159,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_216
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_216
       rect:
         serializedVersion: 2
         x: 0
@@ -2737,7 +3172,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_217
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_217
       rect:
         serializedVersion: 2
         x: 16
@@ -2748,7 +3185,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_218
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_218
       rect:
         serializedVersion: 2
         x: 32
@@ -2759,7 +3198,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_219
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_219
       rect:
         serializedVersion: 2
         x: 48
@@ -2770,7 +3211,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_220
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_220
       rect:
         serializedVersion: 2
         x: 64
@@ -2781,7 +3224,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_221
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_221
       rect:
         serializedVersion: 2
         x: 80
@@ -2792,7 +3237,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_222
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_222
       rect:
         serializedVersion: 2
         x: 96
@@ -2803,7 +3250,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_223
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_223
       rect:
         serializedVersion: 2
         x: 112
@@ -2814,7 +3263,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_224
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_224
       rect:
         serializedVersion: 2
         x: 128
@@ -2825,7 +3276,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_225
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_225
       rect:
         serializedVersion: 2
         x: 144
@@ -2836,7 +3289,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_226
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_226
       rect:
         serializedVersion: 2
         x: 160
@@ -2847,7 +3302,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_227
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_227
       rect:
         serializedVersion: 2
         x: 208
@@ -2858,7 +3315,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_228
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_228
       rect:
         serializedVersion: 2
         x: 224
@@ -2869,7 +3328,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_229
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_229
       rect:
         serializedVersion: 2
         x: 240
@@ -2880,7 +3341,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_230
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_230
       rect:
         serializedVersion: 2
         x: 0
@@ -2891,7 +3354,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_231
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_231
       rect:
         serializedVersion: 2
         x: 16
@@ -2902,7 +3367,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_232
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_232
       rect:
         serializedVersion: 2
         x: 32
@@ -2913,7 +3380,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_233
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_233
       rect:
         serializedVersion: 2
         x: 48
@@ -2924,7 +3393,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_234
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_234
       rect:
         serializedVersion: 2
         x: 64
@@ -2935,7 +3406,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_235
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_235
       rect:
         serializedVersion: 2
         x: 80
@@ -2946,7 +3419,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_236
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_236
       rect:
         serializedVersion: 2
         x: 96
@@ -2957,7 +3432,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_237
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_237
       rect:
         serializedVersion: 2
         x: 112
@@ -2968,7 +3445,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_238
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_238
       rect:
         serializedVersion: 2
         x: 128
@@ -2979,7 +3458,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_239
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_239
       rect:
         serializedVersion: 2
         x: 144
@@ -2990,7 +3471,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_240
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_240
       rect:
         serializedVersion: 2
         x: 160
@@ -3001,7 +3484,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_241
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_241
       rect:
         serializedVersion: 2
         x: 208
@@ -3012,7 +3497,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_242
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_242
       rect:
         serializedVersion: 2
         x: 224
@@ -3023,7 +3510,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_243
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_243
       rect:
         serializedVersion: 2
         x: 240
@@ -3034,7 +3523,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_244
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_244
       rect:
         serializedVersion: 2
         x: 0
@@ -3045,7 +3536,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_245
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_245
       rect:
         serializedVersion: 2
         x: 16
@@ -3056,7 +3549,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_246
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_246
       rect:
         serializedVersion: 2
         x: 32
@@ -3067,7 +3562,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_247
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_247
       rect:
         serializedVersion: 2
         x: 48
@@ -3078,7 +3575,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_248
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_248
       rect:
         serializedVersion: 2
         x: 64
@@ -3089,7 +3588,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_249
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_249
       rect:
         serializedVersion: 2
         x: 80
@@ -3100,7 +3601,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_250
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_250
       rect:
         serializedVersion: 2
         x: 96
@@ -3111,7 +3614,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_251
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_251
       rect:
         serializedVersion: 2
         x: 112
@@ -3122,7 +3627,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_252
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_252
       rect:
         serializedVersion: 2
         x: 128
@@ -3133,7 +3640,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_253
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_253
       rect:
         serializedVersion: 2
         x: 144
@@ -3144,7 +3653,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_254
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_254
       rect:
         serializedVersion: 2
         x: 160
@@ -3155,7 +3666,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_255
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_255
       rect:
         serializedVersion: 2
         x: 208
@@ -3166,7 +3679,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_256
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_256
       rect:
         serializedVersion: 2
         x: 224
@@ -3177,7 +3692,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_257
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_257
       rect:
         serializedVersion: 2
         x: 240
@@ -3188,7 +3705,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_258
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_258
       rect:
         serializedVersion: 2
         x: 0
@@ -3199,7 +3718,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_259
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_259
       rect:
         serializedVersion: 2
         x: 16
@@ -3210,7 +3731,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_260
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_260
       rect:
         serializedVersion: 2
         x: 32
@@ -3221,7 +3744,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_261
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_261
       rect:
         serializedVersion: 2
         x: 48
@@ -3232,7 +3757,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_262
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_262
       rect:
         serializedVersion: 2
         x: 64
@@ -3243,7 +3770,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_263
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_263
       rect:
         serializedVersion: 2
         x: 80
@@ -3254,7 +3783,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_264
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_264
       rect:
         serializedVersion: 2
         x: 96
@@ -3265,7 +3796,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_265
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_265
       rect:
         serializedVersion: 2
         x: 112
@@ -3276,7 +3809,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_266
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_266
       rect:
         serializedVersion: 2
         x: 128
@@ -3287,7 +3822,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_267
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_267
       rect:
         serializedVersion: 2
         x: 144
@@ -3298,7 +3835,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_268
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_268
       rect:
         serializedVersion: 2
         x: 160
@@ -3309,7 +3848,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_269
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_269
       rect:
         serializedVersion: 2
         x: 208
@@ -3320,7 +3861,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_270
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_270
       rect:
         serializedVersion: 2
         x: 224
@@ -3331,7 +3874,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_271
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_271
       rect:
         serializedVersion: 2
         x: 240
@@ -3342,7 +3887,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_272
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_272
       rect:
         serializedVersion: 2
         x: 0
@@ -3353,7 +3900,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_273
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_273
       rect:
         serializedVersion: 2
         x: 16
@@ -3364,7 +3913,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_274
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_274
       rect:
         serializedVersion: 2
         x: 32
@@ -3375,7 +3926,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_275
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_275
       rect:
         serializedVersion: 2
         x: 48
@@ -3386,7 +3939,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_276
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_276
       rect:
         serializedVersion: 2
         x: 64
@@ -3397,7 +3952,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_277
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_277
       rect:
         serializedVersion: 2
         x: 80
@@ -3408,7 +3965,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_278
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_278
       rect:
         serializedVersion: 2
         x: 96
@@ -3419,7 +3978,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_279
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_279
       rect:
         serializedVersion: 2
         x: 112
@@ -3430,7 +3991,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_280
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_280
       rect:
         serializedVersion: 2
         x: 128
@@ -3441,7 +4004,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_281
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_281
       rect:
         serializedVersion: 2
         x: 144
@@ -3452,7 +4017,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_282
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_282
       rect:
         serializedVersion: 2
         x: 160
@@ -3463,7 +4030,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_283
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_283
       rect:
         serializedVersion: 2
         x: 208
@@ -3474,7 +4043,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_284
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_284
       rect:
         serializedVersion: 2
         x: 224
@@ -3485,7 +4056,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_285
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_285
       rect:
         serializedVersion: 2
         x: 240
@@ -3496,7 +4069,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_286
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_286
       rect:
         serializedVersion: 2
         x: 0
@@ -3507,7 +4082,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_287
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_287
       rect:
         serializedVersion: 2
         x: 16
@@ -3518,7 +4095,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_288
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_288
       rect:
         serializedVersion: 2
         x: 32
@@ -3529,7 +4108,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_289
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_289
       rect:
         serializedVersion: 2
         x: 48
@@ -3540,7 +4121,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_290
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_290
       rect:
         serializedVersion: 2
         x: 64
@@ -3551,7 +4134,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_291
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_291
       rect:
         serializedVersion: 2
         x: 80
@@ -3562,7 +4147,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_292
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_292
       rect:
         serializedVersion: 2
         x: 96
@@ -3573,7 +4160,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_293
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_293
       rect:
         serializedVersion: 2
         x: 112
@@ -3584,7 +4173,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_294
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_294
       rect:
         serializedVersion: 2
         x: 128
@@ -3595,7 +4186,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_295
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_295
       rect:
         serializedVersion: 2
         x: 144
@@ -3606,7 +4199,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_296
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_296
       rect:
         serializedVersion: 2
         x: 160
@@ -3617,7 +4212,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_297
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_297
       rect:
         serializedVersion: 2
         x: 208
@@ -3628,7 +4225,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_298
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_298
       rect:
         serializedVersion: 2
         x: 224
@@ -3639,7 +4238,9 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: bricks.db32_299
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: bricks.db32_299
       rect:
         serializedVersion: 2
         x: 240
@@ -3650,6 +4251,7 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 

@@ -9,15 +9,14 @@ public class Ninja : Hero {
         headIcon = null;
         spriteName = "Ninja";
         offensiveSpell = typeof(NinjaStar);
-        defensiveSpell = typeof(GrapplingHook);
+        defensiveSpell = typeof(FlashJump);
 
         health = 35;
         mana = 20;
         power = 15;
         stamina = 5;
 
-
         movementSpeed = 4;
-}
-	
+    }
+
 }

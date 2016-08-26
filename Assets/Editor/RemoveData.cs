@@ -12,6 +12,12 @@ public class RemoveData : MonoBehaviour {
         }
     }
 
+    [MenuItem("Data/Saves/Save Game")]
+    public static void SaveGame() {
+        if (Application.isPlaying)
+            GameSaver.SaveGame();
+    }
+
     [MenuItem("Data/Player/Heal To Full")]
     public static void HealToFull() {
         if (Application.isPlaying)
@@ -21,7 +27,8 @@ public class RemoveData : MonoBehaviour {
     [MenuItem("Data/Player/Infinite Coins")]
     public static void GainCoins() {
         if (Application.isPlaying)
-            PlayerItems.gold += 10000;
+            PlayerItems.gold += 1000;
     }
+
 
 }

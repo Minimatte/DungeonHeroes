@@ -5,7 +5,7 @@ using System.Collections;
 public class Mana : MonoBehaviour {
     public float maxMana;
     public float currentMana;
-    public float manaRegen = 1;
+    public float manaRegen = 1.2f;
 
     public bool HasMana(float manaCost) {
         if (manaCost <= currentMana)

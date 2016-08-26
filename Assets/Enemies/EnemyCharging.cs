@@ -55,7 +55,6 @@ public class EnemyCharging : Enemy {
         else
         if (canCharge && target != null) {
             StartCoroutine(Charge());
-            print("Charging");
         }
 
         if (target != null)

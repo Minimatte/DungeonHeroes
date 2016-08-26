@@ -9,8 +9,6 @@ public class FireballProjectile : Projectile {
 
     void OnCollisionEnter2D(Collision2D other) {
         if (hitLayers == (hitLayers | (1 << other.gameObject.layer))) {
-            if (hitEffect != null)
-                Destroy(Instantiate(hitEffect, transform.position, Quaternion.identity), 3);
 
             GetComponent<Rigidbody2D>().isKinematic = true;
             transform.SetParent(other.transform, true);
@@ -23,5 +21,10 @@ public class FireballProjectile : Projectile {
                 Destroy(gameObject);
         }
 
+    }
+
+    public void OnDestroy() {
+        if (hitEffect != null)
+            Destroy(Instantiate(hitEffect, transform.position, Quaternion.Euler(0, 0, Random.Range(0, 360))), 3);
     }
 }

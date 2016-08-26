@@ -16,8 +16,8 @@ public class Projectile : MonoBehaviour {
     public GameObject hitParticle;
 
     public float damageCooldown;
-    private float currentDamageCooldown = 0;
-    private bool canDamage {
+    protected float currentDamageCooldown = 0;
+    protected bool canDamage {
         get { return currentDamageCooldown == 0; }
     }
 

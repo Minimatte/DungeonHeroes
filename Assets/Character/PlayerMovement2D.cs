@@ -129,7 +129,7 @@ public class PlayerMovement2D : MonoBehaviour {
             Flip();
 
         if (Input.GetButtonDown("Jump")) {
-            if (grounded) {
+            if (grounded || stamina == 0) {
                 Jump(1, true);
             } else if (hasEnoughStamina) {
                 Jump(1, true);
@@ -161,7 +161,7 @@ public class PlayerMovement2D : MonoBehaviour {
         }
     }
 
-    void Flip() {
+    public void Flip() {
         facingRight = !facingRight;
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;

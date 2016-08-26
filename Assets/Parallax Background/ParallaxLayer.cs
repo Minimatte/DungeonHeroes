@@ -13,7 +13,7 @@ public class ParallaxLayer : MonoBehaviour {
     public bool ScaledToX = false;
 
     void Start() {
-        if (CenterToPlayer)
+        if (CenterToPlayer && Application.isPlaying)
             transform.position = GameEvents.player.transform.position;
     }
 

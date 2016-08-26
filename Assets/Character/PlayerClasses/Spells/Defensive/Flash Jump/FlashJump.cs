@@ -18,7 +18,6 @@ public class FlashJump : DefensiveSpell {
     }
 
     public override void UseSpell() {
-        if (!movement.grounded)
             base.UseSpell();
     }
 }

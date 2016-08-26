@@ -25,7 +25,7 @@ public class RandomizedClass : MonoBehaviour {
     public void Setup() {
         Health hp = GetComponent<Health>();
         Mana mana = GetComponent<Mana>();
-
+        
         hp.maxHealth = playerStats.baseHealth;
         mana.maxMana = playerStats.baseMana;
         hp.currentHealth = playerStats.baseHealth;

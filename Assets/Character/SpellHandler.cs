@@ -36,6 +36,7 @@ public class SpellHandler : MonoBehaviour {
         UIManager.UpdateSpellIcons();
         if (Input.GetButtonDown("OffensiveSpell") && !offensive.passive) {
             offensive.UseSpell();
+            GetComponent<Animator>().SetTrigger("Attack");
             if (canStrafe)
                 GetComponent<PlayerMovement2D>().strafeCooldown = 0.3f;
         }

@@ -42,6 +42,16 @@ public class Health : MonoBehaviour {
         Destroy(gameObject);
     }
 
+    public void Invulnerable(float time) {
+        StartCoroutine(MakeInvulnerable(time));
+    }
+
+    private IEnumerator MakeInvulnerable(float time) {
+        canTakeDamage = false;
+        yield return new WaitForSeconds(time);
+        canTakeDamage = true;
+    }
+
     private IEnumerator DamageFrames(float duration) {
         canTakeDamage = false;
         float elapsed = 0;

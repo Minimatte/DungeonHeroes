@@ -33,6 +33,8 @@ public class CameraMovement2D : MonoBehaviour {
 
 
     void Start() {
+        transform.position = new Vector3(GameEvents.player.transform.position.x, GameEvents.player.transform.position.y, transform.position.z);
+
         // player = GameObject.FindGameObjectWithTag("Player");
     }
 

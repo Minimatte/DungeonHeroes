@@ -82,7 +82,11 @@ public class GameEvents : MonoBehaviour {
             PlayerHeroes.AddHero(hero);
             PlayerHeroes.SetCurrentHero(hero);
         }
-        player.GetComponent<HeroClass>().Setup();
+
+        if (player == null)
+            player = GameObject.FindGameObjectWithTag("Player");
+        else
+            player.GetComponent<HeroClass>().Setup();
 
         UIManager.UpdateHeroIcons();
     }

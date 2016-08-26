@@ -3,6 +3,7 @@ using System.Collections;
 
 [ExecuteInEditMode]
 public class ParallaxLayer : MonoBehaviour {
+    public bool CenterToPlayer = false;
     [Range(0, 1)]
     public float parallaxFactorX;
     [Range(0, 1)]
@@ -10,6 +11,11 @@ public class ParallaxLayer : MonoBehaviour {
     [Range(0, 1)]
     public float parallaxFactorZ;
     public bool ScaledToX = false;
+
+    void Start() {
+        if (CenterToPlayer)
+            transform.position = GameEvents.player.transform.position;
+    }
 
     public void Move(Vector3 delta) {
         Vector3 newPos = transform.localPosition;

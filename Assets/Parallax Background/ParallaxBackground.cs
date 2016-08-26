@@ -11,9 +11,17 @@ public class ParallaxBackground : MonoBehaviour {
     void Awake() {
         if (parallaxCamera == null)
             parallaxCamera = Camera.main.GetComponent<ParallaxCamera>();
-        if (parallaxCamera != null)
+        if (parallaxCamera != null) {
             parallaxCamera.onCameraTranslate += Move;
+            if (GameEvents.player != null)
+                transform.position = GameEvents.player.transform.position;
+        }
         SetLayers();
+    }
+
+    void OnDestroy() {
+        if (parallaxCamera != null)
+            parallaxCamera.onCameraTranslate -= Move;
     }
 
     [ContextMenu("SetLayers")]

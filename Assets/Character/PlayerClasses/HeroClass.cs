@@ -17,6 +17,7 @@ public class HeroClass : MonoBehaviour {
         }
         instance = this;
         DontDestroyOnLoad(transform.root.gameObject);
+
     }
 
     void Update() {

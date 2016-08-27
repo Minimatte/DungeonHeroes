@@ -72,7 +72,7 @@ public class Projectile : MonoBehaviour {
         }
     }
 
-    private void DealDamage(Health player) {
+    protected void DealDamage(Health player) {
         if (canDamage) {
             player.takeDamage(damage);
             currentDamageCooldown = damageCooldown;

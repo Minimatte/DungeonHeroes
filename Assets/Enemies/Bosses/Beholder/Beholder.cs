@@ -11,7 +11,7 @@ public class Beholder : Boss {
     }
 
     void Start() {
-        flips = false;
+        flips = true;
     }
 
     protected override void Movement() {
@@ -20,7 +20,7 @@ public class Beholder : Boss {
 
     protected override void Attack() {
     
-
+        
         if (health.hasShield) {
             var rand = Random.Range(0, 3);
             switch (rand) {

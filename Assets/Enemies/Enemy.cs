@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour {
     public Transform target;
 
     public float GetRightValue { get { return transform.localScale.x; } }
-    public Vector3 GetRightVector { get { return new Vector3(transform.localScale.x, 0, 0); } }
+    public Vector3 GetRightVector { get { return new Vector3(transform.localScale.x, 0, 0).normalized; } }
 
     protected virtual void Attack() { }
 

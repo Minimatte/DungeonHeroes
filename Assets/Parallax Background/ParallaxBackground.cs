@@ -9,6 +9,12 @@ public class ParallaxBackground : MonoBehaviour {
     List<ParallaxLayer> parallaxLayers = new List<ParallaxLayer>();
 
     void Awake() {
+        transform.position = new Vector3(parallaxCamera.transform.position.x, parallaxCamera.transform.position.y, transform.position.z);
+
+        if (parallaxCamera != null) {
+            parallaxCamera.onCameraTranslate -= Move;
+        }
+        parallaxCamera = null;
         if (parallaxCamera == null)
             parallaxCamera = Camera.main.GetComponent<ParallaxCamera>();
         if (parallaxCamera != null) {
@@ -20,8 +26,10 @@ public class ParallaxBackground : MonoBehaviour {
     }
 
     void OnDestroy() {
-        if (parallaxCamera != null)
+        if (parallaxCamera != null) {
             parallaxCamera.onCameraTranslate -= Move;
+            parallaxCamera = null;
+        }
     }
 
     [ContextMenu("SetLayers")]

@@ -22,10 +22,18 @@ public class Shadowstep : DefensiveSpell {
             Destroy(go, 1f);
 
             GameObject target = targets.ToArray()[0].gameObject;
-            transform.position = target.transform.position + target.transform.right * target.GetComponent<Enemy>().GetRightValue;
 
-            if (Vector2.Dot(movement.GetRightVector, target.GetComponent<Enemy>().GetRightVector) > 0)
-                movement.Flip();
+            if (target.GetComponent<Enemy>() == null) {
+                transform.position = target.transform.position + target.transform.right * target.GetComponentInParent<Enemy>().GetRightValue;
+                if (Vector2.Dot(movement.GetRightVector, target.GetComponentInParent<Enemy>().GetRightVector) > 0)
+                    movement.Flip();
+            }
+            else {
+
+                transform.position = target.transform.position + target.transform.right * target.GetComponent<Enemy>().GetRightValue;
+                if (Vector2.Dot(movement.GetRightVector, target.GetComponent<Enemy>().GetRightVector) > 0)
+                    movement.Flip();
+            }
 
             GetComponent<Health>().Invulnerable(invulnerableTime);
             Destroy(Instantiate(spellEffect, transform.position, Quaternion.identity), 1f);

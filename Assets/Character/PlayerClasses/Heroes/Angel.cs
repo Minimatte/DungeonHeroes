@@ -7,7 +7,7 @@ public class Angel : Hero {
         level = 1;
         heroName = "Angel";
         headIcon = null;
-        spriteName = "Wizard";
+        spriteName = "Angel";
         offensiveSpell = typeof(RayThrust);
         defensiveSpell = typeof(Teleport);
 

@@ -56,6 +56,7 @@ public class HeroClass : MonoBehaviour {
 
         PlayerMovement2D movement = GetComponent<PlayerMovement2D>();
 
+        movement.speed = hero.movementSpeed;
         movement.stamina = hero.stamina;
 
         if (movement.currentStamina > hero.stamina)

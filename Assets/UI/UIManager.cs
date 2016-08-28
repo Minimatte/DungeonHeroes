@@ -50,9 +50,17 @@ public class UIManager : MonoBehaviour {
     void UpdateStamina() {
         if (GameEvents.player != null) {
             movement = GameEvents.player.GetComponent<PlayerMovement2D>();
-            float targetStamina = movement.currentStamina / movement.stamina;
-            staminaBar.fillAmount = Mathf.MoveTowards(staminaBar.fillAmount, targetStamina, Time.deltaTime);
-            staminaText.text = Mathf.MoveTowards(int.Parse(staminaText.text.Split('/')[0].Split('.')[0]), (int)movement.currentStamina, 40 * Time.deltaTime).ToString("F0") + "/" + movement.stamina;
+
+            if (movement.stamina == 0) {
+                staminaBar.transform.parent.gameObject.SetActive(false);
+              
+            } else {
+                staminaBar.transform.parent.gameObject.SetActive(true);
+
+                float targetStamina = movement.currentStamina / movement.stamina;
+                staminaBar.fillAmount = Mathf.MoveTowards(staminaBar.fillAmount, targetStamina, Time.deltaTime);
+                staminaText.text = Mathf.MoveTowards(int.Parse(staminaText.text.Split('/')[0].Split('.')[0]), (int)movement.currentStamina, 40 * Time.deltaTime).ToString("F0") + "/" + movement.stamina;
+            }
         } else {
             staminaBar.fillAmount = Mathf.MoveTowards(staminaBar.fillAmount, 0, Time.deltaTime);
             staminaText.text = "DEAD";

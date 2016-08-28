@@ -8,8 +8,8 @@ public class Knight : Hero {
         heroName = "Knight";
         headIcon = null;
         spriteName = "Knight";
-        offensiveSpell = typeof(Whirlwind);
-        defensiveSpell = typeof(FlashJump);
+        offensiveSpell = typeof(Slash);
+        defensiveSpell = typeof(Shield);
 
         health = 50;
         mana = 10;

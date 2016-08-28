@@ -11,6 +11,12 @@ public class SpellHandler : MonoBehaviour {
     public DefensiveSpell defensive;
     public bool canStrafe = true;
 
+    Animator anim;
+
+    void Awake() {
+        anim = GetComponent<Animator>();
+    }
+
     void Start() {
         UpdateSpells();
     }
@@ -36,13 +42,14 @@ public class SpellHandler : MonoBehaviour {
         UIManager.UpdateSpellIcons();
         if (Input.GetButtonDown("OffensiveSpell") && !offensive.passive) {
             offensive.UseSpell();
-            GetComponent<Animator>().SetTrigger("Attack");
+            anim.SetTrigger("Attack");
             if (canStrafe)
-                GetComponent<PlayerMovement2D>().strafeCooldown = 0.3f;
+                GetComponent<PlayerMovement2D>().Strafe();
         }
 
         if (Input.GetButtonDown("DefensiveSpell") && !defensive.passive) {
             defensive.UseSpell();
+            anim.SetTrigger("Util");
         }
     }
 

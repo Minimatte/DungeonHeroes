@@ -34,12 +34,13 @@ public class Shadowstep : DefensiveSpell {
                 if (Vector2.Dot(movement.GetRightVector, target.GetComponent<Enemy>().GetRightVector) > 0)
                     movement.Flip();
             }
-
+            movement.Strafe();
             GetComponent<Health>().Invulnerable(invulnerableTime);
             Destroy(Instantiate(spellEffect, transform.position, Quaternion.identity), 1f);
 
         }
     }
+
 
     protected override void Init() {
         hitmask = (1 << LayerMask.NameToLayer("Enemy") | 1 << LayerMask.NameToLayer("FlyingEnemy"));

@@ -16,7 +16,7 @@ public class Wizard : Hero {
         power = 25;
         stamina = 3;
 
-        movementSpeed = 4;
+        movementSpeed = 3;
 }
 	
 }

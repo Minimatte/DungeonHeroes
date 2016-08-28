@@ -8,8 +8,8 @@ public class Goblin : Hero {
         heroName = "Goblin";
         headIcon = null;
         spriteName = "Goblin";
-        offensiveSpell = typeof(NinjaStar);
-        defensiveSpell = typeof(FlashJump);
+        offensiveSpell = typeof(Bone);
+        defensiveSpell = typeof(Berserk);
 
         health = 40;
         mana = 10;
@@ -17,7 +17,7 @@ public class Goblin : Hero {
         stamina = 3;
 
 
-        movementSpeed = 4;
-}
-	
+        movementSpeed = 3;
+    }
+
 }

@@ -9,13 +9,13 @@ public class Health : MonoBehaviour {
     public float healthRegen = 0;
     public bool hasDamageFrames = false;
     public float damageFramesTime = 0.5f;
-    private bool canTakeDamage = true;
+    public bool canTakeDamage = true;
 
 
     public List<GameObject> deathEffects;
     public List<AudioClip> deathSoundEffects;
 
-    public virtual void takeDamage(float damageToTake) {
+    public virtual void TakeDamage(float damageToTake) {
         if (!canTakeDamage)
             return;
 

@@ -74,7 +74,7 @@ public class Projectile : MonoBehaviour {
 
     protected void DealDamage(Health player) {
         if (canDamage) {
-            player.takeDamage(damage);
+            player.TakeDamage(damage);
             currentDamageCooldown = damageCooldown;
 
         }

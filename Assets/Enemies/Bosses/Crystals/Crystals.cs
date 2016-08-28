@@ -13,14 +13,14 @@ public class Crystals : Health {
     public override void Kill() {
         StartCoroutine(SummonMonster());
     }
-    public override void takeDamage(float damageToTake) {
+    public override void TakeDamage(float damageToTake) {
 
         if (currentHealth <= 0)
             return;
 
         if (damageToTake > 0.01f)
             damageToTake = 1;
-        base.takeDamage(damageToTake);
+        base.TakeDamage(damageToTake);
     }
 
     private IEnumerator SummonMonster() {

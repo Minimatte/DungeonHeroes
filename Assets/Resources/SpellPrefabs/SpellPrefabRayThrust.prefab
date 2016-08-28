@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010300860490}
   - 212: {fileID: 212000013031486352}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: Ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}

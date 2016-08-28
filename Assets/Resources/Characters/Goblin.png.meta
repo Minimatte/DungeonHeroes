@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c26b7fc2fbb9be145ab3036078908e95
-timeCreated: 1470609037
+timeCreated: 1472397335
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -53,11 +53,14 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 32
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Head
+    - serializedVersion: 2
+      name: Head
       rect:
         serializedVersion: 2
         x: 8
@@ -68,7 +71,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Hand_Right
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hand_Right
       rect:
         serializedVersion: 2
         x: 23
@@ -79,7 +84,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Hand_Left
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hand_Left
       rect:
         serializedVersion: 2
         x: 6
@@ -90,7 +97,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Foot_Left
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Foot_Left
       rect:
         serializedVersion: 2
         x: 9
@@ -101,7 +110,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Foot_Right
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Foot_Right
       rect:
         serializedVersion: 2
         x: 19
@@ -112,7 +123,9 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Body
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Body
       rect:
         serializedVersion: 2
         x: 10
@@ -123,17 +136,20 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: Hat
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Hat
       rect:
         serializedVersion: 2
         x: 35
-        y: 11
-        width: 14
-        height: 15
+        y: 5
+        width: 20
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      tessellationDetail: -1
     outline: []
   spritePackingTag: 
   userData: 

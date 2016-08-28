@@ -9,14 +9,14 @@ public class Angel : Hero {
         headIcon = null;
         spriteName = "Angel";
         offensiveSpell = typeof(RayThrust);
-        defensiveSpell = typeof(Teleport);
+        defensiveSpell = typeof(AngelShield);
 
         health = 30;
         mana = 30;
         power = 10;
         stamina = 0;
 
-        movementSpeed = 4;
+        movementSpeed = 3;
 }
 	
 }

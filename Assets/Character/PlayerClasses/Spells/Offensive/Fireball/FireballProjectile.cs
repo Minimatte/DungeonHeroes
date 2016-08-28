@@ -13,7 +13,7 @@ public class FireballProjectile : Projectile {
             GetComponent<Rigidbody2D>().isKinematic = true;
             transform.SetParent(other.transform, true);
             if (other.gameObject.GetComponent<Health>()) {
-                other.gameObject.GetComponent<Health>().takeDamage(damage);
+                other.gameObject.GetComponent<Health>().TakeDamage(damage);
 
             }
             GetComponent<Collider2D>().enabled = false;

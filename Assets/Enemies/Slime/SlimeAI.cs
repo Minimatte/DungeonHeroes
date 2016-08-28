@@ -6,7 +6,8 @@ public class SlimeAI : EnemyJumping {
     public GameObject slimeWalkEffect;
 
     protected override void Attack() {
-        target.GetComponent<Health>().takeDamage(attackProperties.damage);
+        if (target.GetComponent<Health>())
+            target.GetComponent<Health>().TakeDamage(attackProperties.damage);
     }
 
     public void OnCollisionEnter2D(Collision2D collision) {

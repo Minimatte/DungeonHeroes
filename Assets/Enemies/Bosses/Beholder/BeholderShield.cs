@@ -7,14 +7,14 @@ public class BeholderShield : Health {
     public override void Kill() {
         GetComponentInParent<BeholderHealth>().shields -= 1;
         GetComponent<SpriteRenderer>().enabled = false;
-        GetComponentInParent<BeholderHealth>().takeDamage(0);
+        GetComponentInParent<BeholderHealth>().TakeDamage(0);
     }
 
-    public override void takeDamage(float damageToTake) {
+    public override void TakeDamage(float damageToTake) {
         if (currentHealth == 0)
             return;
 
-        base.takeDamage(damageToTake);
+        base.TakeDamage(damageToTake);
         if (GetComponentInParent<Animator>())
             GetComponentInParent<Animator>().SetTrigger("TakeDamage" + shieldId);
     }

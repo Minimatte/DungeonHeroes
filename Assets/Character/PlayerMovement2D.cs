@@ -28,7 +28,7 @@ public class PlayerMovement2D : MonoBehaviour {
     private Animator anim;
     private GameObject jumpEffect;
 
-    public float strafeCooldown = 0;
+    private float strafeCooldown = 0;
 
     void Start() {
         jumpEffect = Resources.Load<GameObject>("Animations/SmokeJump/Smoke_JumpEffect");
@@ -67,6 +67,10 @@ public class PlayerMovement2D : MonoBehaviour {
     void UpdateStamina() {
         if (currentStamina < stamina)
             currentStamina = Mathf.Clamp(currentStamina + Time.deltaTime, 0, stamina);
+    }
+
+    public void Strafe() {
+        strafeCooldown = 0.3f;
     }
 
     void Interact() {

@@ -6,7 +6,8 @@ using System.Collections.Generic;
 public class PlayerHealth : Health {
 
     public override void TakeDamage(float damageToTake) {
-        Camera.main.GetComponent<CameraMovement2D>().ShakeCamera(0.2f, 1);
+        if (damageToTake >= 0 && canTakeDamage)
+            Camera.main.GetComponent<CameraMovement2D>().ShakeCamera(0.2f, 1);
         base.TakeDamage(damageToTake);
     }
 

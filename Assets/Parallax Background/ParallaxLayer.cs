@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[ExecuteInEditMode]
 public class ParallaxLayer : MonoBehaviour {
     public bool CenterToPlayer = false;
     [Range(0, 1)]

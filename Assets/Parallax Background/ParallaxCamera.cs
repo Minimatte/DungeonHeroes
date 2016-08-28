@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[ExecuteInEditMode]
 public class ParallaxCamera : MonoBehaviour {
     public delegate void ParallaxCameraDelegate(Vector3 deltaMovement);
     public ParallaxCameraDelegate onCameraTranslate;

@@ -2,14 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 
-[ExecuteInEditMode]
 public class ParallaxBackground : MonoBehaviour {
     public ParallaxCamera parallaxCamera;
 
     List<ParallaxLayer> parallaxLayers = new List<ParallaxLayer>();
 
     void Awake() {
-        transform.position = new Vector3(parallaxCamera.transform.position.x, parallaxCamera.transform.position.y, transform.position.z);
+        if (!Application.isPlaying)
+            return;
 
         if (parallaxCamera != null) {
             parallaxCamera.onCameraTranslate -= Move;
@@ -22,6 +22,7 @@ public class ParallaxBackground : MonoBehaviour {
             if (GameEvents.player != null)
                 transform.position = GameEvents.player.transform.position;
         }
+        transform.position = new Vector3(parallaxCamera.transform.position.x, parallaxCamera.transform.position.y, transform.position.z);
         SetLayers();
     }
 

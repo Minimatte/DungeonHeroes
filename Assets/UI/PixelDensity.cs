@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[ExecuteInEditMode]
 public class PixelDensity : MonoBehaviour {
 
     public float pixelsPerUnit = 100;

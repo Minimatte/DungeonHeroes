@@ -16,6 +16,10 @@ public class Knight : Hero {
         power = 10;
         stamina = 3;
         movementSpeed = 3;
+
+
+        upgrade = Upgrade.Health;
+        upgradeAmount = 10;
     }
 
 }

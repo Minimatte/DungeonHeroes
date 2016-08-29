@@ -87,14 +87,22 @@ public class Shop : WindowPopup {
         string text = "";
         StringBuilder sb = new StringBuilder(text);
         BuyableHero hero = (BuyableHero)buyableObject;
+        if (PlayerHeroes.FullHeroes) {
+            sb.AppendLine("Name:" + hero.hero.heroName);
+            sb.AppendLine("Upgrades:" + hero.hero.upgrade);
+            sb.AppendLine("Amount:" + hero.hero.upgradeAmount);
 
-        sb.AppendLine("Name:" + hero.hero.heroName);
-        sb.AppendLine("Health:" + hero.hero.health);
-        sb.AppendLine("Mana:" + hero.hero.mana);
-        sb.AppendLine("Power:" + hero.hero.power);
+            sb.AppendLine(" ");
+            sb.AppendLine("Cost:" + cost + " Coins");
+        } else {
+            sb.AppendLine("Name:" + hero.hero.heroName);
+            sb.AppendLine("Health:" + hero.hero.health);
+            sb.AppendLine("Mana:" + hero.hero.mana);
+            sb.AppendLine("Power:" + hero.hero.power);
 
-        sb.AppendLine(" ");
-        sb.AppendLine("Cost:" + cost + " Coins");
+            sb.AppendLine(" ");
+            sb.AppendLine("Cost:" + cost + " Coins");
+        }
 
         return sb.ToString();
 

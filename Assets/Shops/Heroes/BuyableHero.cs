@@ -16,9 +16,9 @@ public class BuyableHero : Buyable {
 
     private void SetCost() {
         if (PlayerItems.gold <= 63)
-            cost = 63 + (int)(PlayerItems.gold * UnityEngine.Random.Range(0.6f, 1.2f));
+            cost = (int)(63 * UnityEngine.Random.Range(0.40f, 1.40f)) + (int)(PlayerItems.gold * UnityEngine.Random.Range(0.6f, 1.2f));
         else
-            cost = (int)(63 + PlayerItems.gold * UnityEngine.Random.Range(0.6f, 1.2f));
+            cost = (int)(PlayerItems.gold * UnityEngine.Random.Range(0.6f, 1.2f));
     }
 
     public Hero RandomizeHero() {
@@ -53,7 +53,11 @@ public class BuyableHero : Buyable {
     }
 
     private void BuyHero() {
-        PlayerHeroes.AddHero(hero);
+        if (PlayerHeroes.FullHeroes) {
+            PlayerHeroes.HeroUpgrades[hero.upgrade] += hero.upgradeAmount;
+        } else {
+            PlayerHeroes.AddHero(hero);
+        }
         Destroy(gameObject);
     }
 

@@ -83,7 +83,7 @@ MonoBehaviour:
     damage: 5
     cooldown: 0
   aiProperties:
-    aggroRange: 5
+    aggroRange: 3
   target: {fileID: 0}
   patrolRange: 3
   upForce: 500
@@ -106,6 +106,7 @@ MonoBehaviour:
   healthRegen: 0
   hasDamageFrames: 0
   damageFramesTime: 0.5
+  canTakeDamage: 1
   deathEffects: []
   deathSoundEffects: []
 --- !u!212 &21233968

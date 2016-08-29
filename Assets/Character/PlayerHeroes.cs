@@ -7,10 +7,12 @@ using System.Linq;
 public class PlayerHeroes {
 
     public const int MaxHeroes = 4;
-
     public static Hero currentHero;
-
     public static List<Hero> heroes = new List<Hero>();
+    public static bool FullHeroes { get { return heroes.Count == MaxHeroes; } }
+
+    public static Dictionary<Upgrade, int> HeroUpgrades;
+
 
     public static void NextHero() {
         var index = heroes.IndexOf(currentHero);

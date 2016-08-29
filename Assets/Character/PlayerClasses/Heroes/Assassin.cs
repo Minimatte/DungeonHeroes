@@ -17,6 +17,9 @@ public class Assassin : Hero {
         stamina = 3;
 
         movementSpeed = 5;
+
+        upgrade = Upgrade.Power;
+        upgradeAmount = 10;
     }
 
 }

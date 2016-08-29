@@ -17,6 +17,10 @@ public class Ninja : Hero {
         stamina = 5;
 
         movementSpeed = 4;
+
+
+        upgrade = Upgrade.Stamina;
+        upgradeAmount = 1;
     }
 
 }

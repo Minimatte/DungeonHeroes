@@ -17,6 +17,9 @@ public class Wizard : Hero {
         stamina = 3;
 
         movementSpeed = 3;
-}
-	
+
+        upgrade = Upgrade.Mana;
+        upgradeAmount = 5;
+    }
+
 }

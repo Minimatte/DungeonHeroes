@@ -20,7 +20,7 @@ public class EnemyJumping : Enemy {
 
         patrolLocation = startLocation;
 
-        InvokeRepeating("JumpTowardsPoint", jumpInterval, jumpInterval);
+        InvokeRepeating("JumpTowardsPoint", jumpInterval, UnityEngine.Random.Range(jumpInterval * 0.5f, jumpInterval * 1.5f));
     }
 
     void Update() {
@@ -50,9 +50,14 @@ public class EnemyJumping : Enemy {
             return;
 
         if (target == null) {
-            Jump(patrolLocation);
-        } else
-            Jump(target.transform.position);
+            Vector3 loc = patrolLocation;
+            loc.y = transform.position.y;
+            Jump(loc);
+        } else {
+            Vector3 loc = target.transform.position;
+            loc.y = transform.position.y;
+            Jump(loc);
+        }
 
         Flip();
     }

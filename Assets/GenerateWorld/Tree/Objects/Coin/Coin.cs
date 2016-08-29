@@ -17,7 +17,7 @@ public class Coin : MonoBehaviour {
     }
 
     private IEnumerator EnableCollision() {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.15f);
         GetComponent<Collider2D>().enabled = true;
     }
 
@@ -26,7 +26,7 @@ public class Coin : MonoBehaviour {
     }
 
     public void OnCollisionEnter2D(Collision2D collision) {
-        if (collision.gameObject.GetComponent<PlayerMovement2D>()) {
+        if (collision.gameObject.CompareTag("Player")) {
             PlayerItems.gold += value;
             Instantiate(pickupVFX, transform.position, Quaternion.identity);
 

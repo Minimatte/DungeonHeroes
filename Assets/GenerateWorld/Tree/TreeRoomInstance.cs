@@ -12,6 +12,10 @@ public class TreeRoomInstance : MonoBehaviour {
 
     public GameObject EndPortal;
 
+    public List<GameObject> Traps;
+    public List<GameObject> Enemies;
+    public Vector2 EnemiesMinMax = Vector2.zero;
+
     public void Initialize() {
         if (startingRoom) {
             //SpawnRoomDifferences();
@@ -22,7 +26,7 @@ public class TreeRoomInstance : MonoBehaviour {
             //SpawnRoomDifferences();
             SpawnTreasure();
             SpawnTraps();
-            SpawnEnemies();
+            SpawnEnemies((int)EnemiesMinMax.x, (int)EnemiesMinMax.y);
         }
     }
 
@@ -31,22 +35,14 @@ public class TreeRoomInstance : MonoBehaviour {
         Instantiate(Resources.Load<GameObject>("JumpStickPrefab"), room.middle + new Vector2(0, 1), Quaternion.identity);
     }
 
-    private void SpawnEnemies() {
-        int amount = Random.Range(1, 4);
-
-        var enemies = Resources.LoadAll("Enemies/", typeof(GameObject)).Cast<GameObject>();
-
-        List<GameObject> e = new List<GameObject>();
-
-        foreach (var go in enemies) {
-            e.Add(go);
-        }
+    private void SpawnEnemies(int min, int max) {
+        int amount = Random.Range(min, max);
 
         for (int i = 0; i < amount; i++) {
 
             Vector2 random = room.RandomPositionInRoom;
 
-            Instantiate(e[Random.Range(0, e.Count)], random, Quaternion.identity);
+            Instantiate(Enemies[Random.Range(0, Enemies.Count)], random, Quaternion.identity);
 
         }
     }
@@ -66,7 +62,7 @@ public class TreeRoomInstance : MonoBehaviour {
     }
 
     private void SpawnTraps() {
-
+        
     }
 
     private void SpawnPortal() {

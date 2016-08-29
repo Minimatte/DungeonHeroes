@@ -20,4 +20,6 @@ public class Hero {
 
     public float movementSpeed = 2f;
 
+    public Upgrade upgrade;
+    public int upgradeAmount;
 }

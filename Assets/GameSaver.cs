@@ -3,6 +3,7 @@ using System.Collections;
 using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Collections.Generic;
 
 public class GameSaver : MonoBehaviour {
 
@@ -21,7 +22,7 @@ public class GameSaver : MonoBehaviour {
             heroes[i] = PlayerHeroes.heroes[i].GetType();
         }
         data.hero = heroes;
-
+        data.upgrades = PlayerHeroes.HeroUpgrades;
         data.unlockedDungeons = GameEvents.dungeonsCleared;
 
         WriteToFile(data);
@@ -73,4 +74,5 @@ public class SaveData {
 
     public bool[] unlockedDungeons { get; set; }
 
+    public Dictionary<Upgrade, int> upgrades {get;set;}
 }

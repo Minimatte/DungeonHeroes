@@ -18,6 +18,10 @@ public class Goblin : Hero {
 
 
         movementSpeed = 3;
+
+        upgrade = Upgrade.Power;
+        upgradeAmount = 7;
+
     }
 
 }

@@ -11,7 +11,7 @@ public class Beholder : Boss {
     }
 
     void Start() {
-        flips = true;
+        flips = false;
     }
 
     protected override void Movement() {

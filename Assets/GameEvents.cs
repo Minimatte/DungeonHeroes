@@ -60,6 +60,7 @@ public class GameEvents : MonoBehaviour {
 
             PlayerItems.gold = data.gold;
             dungeonsCleared = data.unlockedDungeons;
+            PlayerHeroes.HeroUpgrades = data.upgrades;
             print("Loaded player");
 
         } else {

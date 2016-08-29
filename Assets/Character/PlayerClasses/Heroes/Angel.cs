@@ -17,6 +17,9 @@ public class Angel : Hero {
         stamina = 0;
 
         movementSpeed = 3;
-}
+
+        upgrade = Upgrade.Health;
+        upgradeAmount = 5;
+    }
 	
 }

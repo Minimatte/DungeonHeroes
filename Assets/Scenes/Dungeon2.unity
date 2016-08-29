@@ -250,7 +250,7 @@ MonoBehaviour:
   corridorLeft: {fileID: 0}
   corridorRight: {fileID: 0}
   Enemies:
-  - {fileID: 187786, guid: c98f39635ccd85e4585bdc54314f76d7, type: 2}
+  - {fileID: 1000012182969064, guid: 1e6a9cee8fa0ffd478a3a0effc056320, type: 2}
   EnemiesMinMax: {x: 1, y: 4}
   Traps: []
   roomMinSize: {x: 12, y: 6}

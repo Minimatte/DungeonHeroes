@@ -8,7 +8,7 @@ public class FlashJump : DefensiveSpell {
 
     protected override void Init() {
         movement = GetComponent<PlayerMovement2D>();
-        manaCost = 3;
+        manaCost = 7;
         spellName = "FlashJump";
     }
 

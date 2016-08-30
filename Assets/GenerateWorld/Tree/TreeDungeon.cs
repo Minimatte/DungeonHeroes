@@ -32,9 +32,14 @@ public class TreeDungeon : MonoBehaviour {
     [Header("Enemies")]
     public List<GameObject> Enemies;
     public Vector2 EnemiesMinMax;
+
     [Header("Traps")]
     public List<GameObject> Traps;
+    public int maxTraps = 0;
+    [Range(0, 100)]
+    public float ChanceToSpawnTraps = 0;
 
+    [Header("Room Options")]
     public Vector2 roomMinSize, roomMaxSize;
 
     public int corridorSize = 3;
@@ -144,6 +149,9 @@ public class TreeDungeon : MonoBehaviour {
             RoomToWorld(newRoom, go);
 
             newRoom.instance = instance;
+
+            instance.ChanceToSpawnTraps = ChanceToSpawnTraps;
+            instance.maxTraps = maxTraps;
 
             instance.Enemies = Enemies;
             instance.Traps = Traps;

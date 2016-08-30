@@ -523,7 +523,10 @@ MonoBehaviour:
   Enemies:
   - {fileID: 187786, guid: c98f39635ccd85e4585bdc54314f76d7, type: 2}
   EnemiesMinMax: {x: 2, y: 4}
-  Traps: []
+  Traps:
+  - {fileID: 1000011593214362, guid: db62c0bd96156e74396e640d5b80b2a9, type: 2}
+  maxTraps: 10
+  ChanceToSpawnTraps: 50.1
   roomMinSize: {x: 12, y: 6}
   roomMaxSize: {x: 14, y: 8}
   corridorSize: 1

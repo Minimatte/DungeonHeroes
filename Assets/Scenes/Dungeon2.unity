@@ -243,10 +243,11 @@ MonoBehaviour:
   roofTile: {fileID: 1000012190991916, guid: 0ed4874884bec594480e045e7ac02004, type: 2}
   wallTile:
   - {fileID: 1000010682619662, guid: 08d58dba735772c41b105ce324d2c79d, type: 2}
-  bottomLeft: {fileID: 145966, guid: 3528389fa83070b4b944a53611516228, type: 2}
-  bottomRight: {fileID: 103026, guid: 078877c6255e58646ae4f2900d584a99, type: 2}
-  topLeft: {fileID: 144626, guid: 3902c1f670fa44849a50f93eb27f6443, type: 2}
-  topRight: {fileID: 186148, guid: 3e6f39d27a8bf08489a74f38e9f84cd5, type: 2}
+  bottomLeft: {fileID: 1000010682619662, guid: 08d58dba735772c41b105ce324d2c79d, type: 2}
+  bottomRight: {fileID: 1000010682619662, guid: 08d58dba735772c41b105ce324d2c79d,
+    type: 2}
+  topLeft: {fileID: 1000010682619662, guid: 08d58dba735772c41b105ce324d2c79d, type: 2}
+  topRight: {fileID: 1000010682619662, guid: 08d58dba735772c41b105ce324d2c79d, type: 2}
   corridorLeft: {fileID: 0}
   corridorRight: {fileID: 0}
   Enemies:

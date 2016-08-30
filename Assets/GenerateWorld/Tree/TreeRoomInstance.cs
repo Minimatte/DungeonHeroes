@@ -13,6 +13,9 @@ public class TreeRoomInstance : MonoBehaviour {
     public GameObject EndPortal;
 
     public List<GameObject> Traps;
+    public int maxTraps = 0;
+    public float ChanceToSpawnTraps = 0;
+
     public List<GameObject> Enemies;
     public Vector2 EnemiesMinMax = Vector2.zero;
 
@@ -25,9 +28,17 @@ public class TreeRoomInstance : MonoBehaviour {
         } else {
             //SpawnRoomDifferences();
             SpawnTreasure();
-            SpawnTraps();
+            if (CheckForTrapChance())
+                SpawnTraps(maxTraps);
             SpawnEnemies((int)EnemiesMinMax.x, (int)EnemiesMinMax.y);
         }
+    }
+
+    private bool CheckForTrapChance() {
+        if (Random.Range(0, 100) < ChanceToSpawnTraps)
+            return false;
+        else
+            return true;
     }
 
     private void SpawnRoomDifferences() {
@@ -51,18 +62,26 @@ public class TreeRoomInstance : MonoBehaviour {
         int amount = Random.Range(0, 3);
 
         for (int i = 0; i < amount; i++) {
-
             Vector2 random = room.RandomPositionInRoom;
             RaycastHit2D hit = Physics2D.Linecast(random, random + Vector2.down * room.height, 1 << LayerMask.NameToLayer("Ground"));
             Instantiate(Resources.Load<GameObject>("Chest"), hit.point, Quaternion.identity);
-
-
         }
-
     }
 
-    private void SpawnTraps() {
-        
+    private void SpawnTraps(int max) {
+
+        int trapAmount = 0;
+
+        do {
+            Vector2 random = room.RandomPositionInRoom;
+            RaycastHit2D hit = Physics2D.Linecast(random, random + Vector2.down * room.height, 1 << LayerMask.NameToLayer("Ground"));
+
+            if (hit.collider.CompareTag("Object"))
+                continue;
+
+            trapAmount++;
+            Instantiate(Traps[Random.Range(0, Traps.Count)], hit.point, Quaternion.identity);
+        } while (CheckForTrapChance() && trapAmount < max);
     }
 
     private void SpawnPortal() {

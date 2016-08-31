@@ -35,6 +35,9 @@ public class TreeRoomInstance : MonoBehaviour {
     }
 
     private bool CheckForTrapChance() {
+        if (Traps.Count == 0)
+            return false;
+
         if (Random.Range(0, 100) < ChanceToSpawnTraps)
             return false;
         else

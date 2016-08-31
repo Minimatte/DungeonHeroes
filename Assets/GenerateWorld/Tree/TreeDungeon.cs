@@ -75,7 +75,7 @@ public class TreeDungeon : MonoBehaviour {
         ClearRooms();
 
         if (GameEvents.player == null) {
-            print("Null");
+            print("Gameevents player is null. Probably started game in the wrong scene!");
 
             GameObject p = Instantiate(player, root.position, Quaternion.identity) as GameObject;
             (Instantiate(gameEvents) as GameObject).GetComponent<GameEvents>().RandomizeHero();

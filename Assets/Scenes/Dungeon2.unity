@@ -254,9 +254,11 @@ MonoBehaviour:
   - {fileID: 1000012182969064, guid: 1e6a9cee8fa0ffd478a3a0effc056320, type: 2}
   EnemiesMinMax: {x: 1, y: 4}
   Traps: []
+  maxTraps: 0
+  ChanceToSpawnTraps: 0
   roomMinSize: {x: 12, y: 6}
   roomMaxSize: {x: 18, y: 10}
-  corridorSize: 2
+  corridorSize: 1
   maxDistance: 16
   minDistance: 2
   iterations: 5

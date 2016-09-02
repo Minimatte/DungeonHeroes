@@ -525,8 +525,18 @@ MonoBehaviour:
   EnemiesMinMax: {x: 2, y: 4}
   Traps:
   - {fileID: 1000011593214362, guid: db62c0bd96156e74396e640d5b80b2a9, type: 2}
-  maxTraps: 10
+  maxTraps: 5
   ChanceToSpawnTraps: 50.1
+  Props:
+  - {fileID: 1000013136244492, guid: 5a5ba7d373bd18943b711062da535e29, type: 2}
+  - {fileID: 1000012122139108, guid: b174e70d713354c458731471db5a2dbb, type: 2}
+  - {fileID: 1000011555203220, guid: e8ee84372594b614da72b6206fda4bb1, type: 2}
+  - {fileID: 1000010728723842, guid: bc9150599a4b1d74592fb6453408ff6c, type: 2}
+  maxProps: 10
+  ChanceToSpawnProps: 55
+  Foreground:
+  - {fileID: 1000013120577666, guid: 4eb2a01e8642cea45953d3ecb541f6ca, type: 2}
+  ChanceToSpawnForeground: 2
   roomMinSize: {x: 12, y: 6}
   roomMaxSize: {x: 14, y: 8}
   corridorSize: 1
@@ -570,7 +580,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 460358, guid: ad0f08e2209b1ad4bad5f3b8274756c8, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad0f08e2209b1ad4bad5f3b8274756c8, type: 2}
@@ -810,7 +820,7 @@ Transform:
   m_Children:
   - {fileID: 1807495177}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1001 &1101524717
 Prefab:
   m_ObjectHideFlags: 0

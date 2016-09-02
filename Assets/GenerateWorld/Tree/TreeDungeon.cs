@@ -39,6 +39,17 @@ public class TreeDungeon : MonoBehaviour {
     [Range(0, 100)]
     public float ChanceToSpawnTraps = 0;
 
+    [Header("Props")]
+    public List<GameObject> Props;
+    public int maxProps = 0;
+    [Range(0, 100)]
+    public float ChanceToSpawnProps = 0;
+
+    [Header("Foreground")]
+    public List<GameObject> Foreground;
+    [Range(0, 10)]
+    public float ChanceToSpawnForeground = 0;
+
     [Header("Room Options")]
     public Vector2 roomMinSize, roomMaxSize;
 
@@ -61,9 +72,7 @@ public class TreeDungeon : MonoBehaviour {
         TreeRoomInstance instance = go.AddComponent<TreeRoomInstance>();
         instance.room = root;
         root.instance = instance;
-        instance.Enemies = Enemies;
-        instance.Traps = Traps;
-        instance.EnemiesMinMax = EnemiesMinMax;
+        SetInstanceOptions(ref instance);
 
         int counter = 0;
 
@@ -114,6 +123,12 @@ public class TreeDungeon : MonoBehaviour {
         for (int x = (int)minX - (int)avgX; x < maxX + avgX; x++) {
             for (int y = (int)minY - (int)avgY; y < maxY + avgY; y++) {
                 (Instantiate(wallTile[Random.Range(0, wallTile.Length)], new Vector3(x, y), Quaternion.identity) as GameObject).transform.SetParent(go.transform);
+
+                if (Random.Range(0, 100) < ChanceToSpawnForeground) {
+                    (Instantiate(Foreground[Random.Range(0, Foreground.Count)], new Vector3(x, y), Quaternion.identity) as GameObject).transform.SetParent(go.transform);
+
+                }
+
             }
         }
     }
@@ -150,17 +165,25 @@ public class TreeDungeon : MonoBehaviour {
 
             newRoom.instance = instance;
 
-            instance.ChanceToSpawnTraps = ChanceToSpawnTraps;
-            instance.maxTraps = maxTraps;
-
-            instance.Enemies = Enemies;
-            instance.Traps = Traps;
-            instance.EnemiesMinMax = EnemiesMinMax;
+            SetInstanceOptions(ref instance);
 
             return newRoom;
         }
         return null;
     }
+
+    private void SetInstanceOptions(ref TreeRoomInstance instance) {
+        instance.ChanceToSpawnTraps = ChanceToSpawnTraps;
+        instance.maxTraps = maxTraps;
+        instance.Enemies = Enemies;
+        instance.Traps = Traps;
+        instance.EnemiesMinMax = EnemiesMinMax;
+        instance.Props = Props;
+        instance.maxProps = maxProps;
+        instance.ChanceToSpawnProps = ChanceToSpawnProps;
+
+    }
+
 
     private void RoomToWorld(Room newRoom, GameObject go) {
         for (int x = 0; x < newRoom.width; x++) {
@@ -225,9 +248,10 @@ public class TreeDungeon : MonoBehaviour {
         for (int x = 0; x < Mathf.Abs(direction.x); x++) {
             for (int y = -cSize; y <= cSize; y++) {
                 if (y == -cSize || y == cSize) { } else {
-                    Collider2D hit = Physics2D.OverlapPoint(a.position + new Vector2(x, y) * multip);
-                    if (hit != null && !hit.CompareTag("Object"))
-                        Destroy(hit.gameObject);
+                    Collider2D[] hits = Physics2D.OverlapPointAll(a.position + new Vector2(x, y) * multip);
+                    foreach (Collider2D hit in hits)
+                        if (hit != null && !hit.CompareTag("Object"))
+                            Destroy(hit.gameObject);
                 }
             }
         }

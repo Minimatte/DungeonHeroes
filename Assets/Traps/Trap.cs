@@ -8,6 +8,8 @@ public class Trap : MonoBehaviour {
     public float cooldown = 1;
     private float currentCooldown = 0;
 
+    public AudioClip triggerSound;
+
     public float damage = 5;
 
     void Awake() {
@@ -33,8 +35,14 @@ public class Trap : MonoBehaviour {
         }
     }
 
+    public void PlayTrapSound() {
+        AudioSource.PlayClipAtPoint(triggerSound, transform.position);
+    }
+
     public void DealDamage() {
         Collider2D[] hits = Physics2D.OverlapBoxAll(transform.position + Vector3.up * 0.16f, Vector2.one, 90, hitmask);
+
+        PlayTrapSound();
 
         for (int i = 0; i < hits.Length; i++) {
             if (hits[i].GetComponent<Health>()) {

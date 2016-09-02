@@ -85,7 +85,7 @@ MonoBehaviour:
   aiProperties:
     aggroRange: 3
   target: {fileID: 0}
-  patrolRange: 3
+  patrolRange: 0.5
   upForce: 500
   forwardForce: 500
   jumpInterval: 2

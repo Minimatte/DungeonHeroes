@@ -16,32 +16,53 @@ public class TreeRoomInstance : MonoBehaviour {
     public int maxTraps = 0;
     public float ChanceToSpawnTraps = 0;
 
+    public List<GameObject> Props;
+    public int maxProps = 0;
+    public float ChanceToSpawnProps = 0;
+
+
     public List<GameObject> Enemies;
     public Vector2 EnemiesMinMax = Vector2.zero;
 
     public void Initialize() {
         if (startingRoom) {
-            //SpawnRoomDifferences();
             SpawnTreasure();
+
+            if (CheckForPropChance())
+                SpawnProps();
+
         } else if (endroom) {
             SpawnPortal();
         } else {
-            //SpawnRoomDifferences();
             SpawnTreasure();
             if (CheckForTrapChance())
                 SpawnTraps(maxTraps);
+
+            if (CheckForPropChance())
+                SpawnProps();
+
             SpawnEnemies((int)EnemiesMinMax.x, (int)EnemiesMinMax.y);
         }
     }
 
     private bool CheckForTrapChance() {
-        if (Traps.Count == 0)
+        if (Traps == null || Traps.Count == 0)
             return false;
 
         if (Random.Range(0, 100) < ChanceToSpawnTraps)
-            return false;
-        else
             return true;
+        else
+            return false;
+    }
+
+    private bool CheckForPropChance() {
+        if (Props == null || Props.Count == 0)
+            return false;
+
+        if (Random.Range(0, 100) < ChanceToSpawnProps)
+            return true;
+        else
+            return false;
     }
 
     private void SpawnRoomDifferences() {
@@ -85,6 +106,22 @@ public class TreeRoomInstance : MonoBehaviour {
             trapAmount++;
             Instantiate(Traps[Random.Range(0, Traps.Count)], hit.point, Quaternion.identity);
         } while (CheckForTrapChance() && trapAmount < max);
+    }
+
+    private void SpawnProps() {
+
+        int propAmount = 0;
+
+        do {
+            Vector2 random = room.RandomPositionInRoom;
+            RaycastHit2D hit = Physics2D.Linecast(random, random + Vector2.down * room.height, 1 << LayerMask.NameToLayer("Ground"));
+
+            if (hit.collider.CompareTag("Object"))
+                continue;
+
+            propAmount++;
+            Instantiate(Props[Random.Range(0, Props.Count)], hit.point, Quaternion.identity);
+        } while (CheckForPropChance() && propAmount < maxProps);
     }
 
     private void SpawnPortal() {

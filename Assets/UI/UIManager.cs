@@ -20,7 +20,7 @@ public class UIManager : MonoBehaviour {
 
     public static Dictionary<Hero, HeroIcon> heroIcons = new Dictionary<Hero, HeroIcon>();
 
-
+    private Hero hero;
     private static UIManager instance;
     private PlayerMovement2D movement;
 
@@ -32,6 +32,7 @@ public class UIManager : MonoBehaviour {
         instance = this;
         DontDestroyOnLoad(transform.root.gameObject);
 
+       
         anim = GetComponent<Animator>();
         HeroIcon = heroIcon;
         HeroIconPanel = heroIconPanel;
@@ -51,9 +52,8 @@ public class UIManager : MonoBehaviour {
         if (GameEvents.player != null) {
             movement = GameEvents.player.GetComponent<PlayerMovement2D>();
 
-            if (movement.stamina == 0) {
+            if (GameEvents.player.GetComponent<HeroClass>().hero.infiniteJumps) {
                 staminaBar.transform.parent.gameObject.SetActive(false);
-              
             } else {
                 staminaBar.transform.parent.gameObject.SetActive(true);
 

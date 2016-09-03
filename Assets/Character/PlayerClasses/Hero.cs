@@ -18,6 +18,8 @@ public class Hero {
     public int level;
     public int stamina;
 
+    public bool infiniteJumps = false;
+
     public float movementSpeed = 2f;
 
     public Upgrade upgrade;

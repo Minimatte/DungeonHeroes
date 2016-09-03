@@ -60,6 +60,7 @@ public class GameEvents : MonoBehaviour {
 
             PlayerItems.gold = data.gold;
             dungeonsCleared = data.unlockedDungeons;
+            PlayerHeroes.HeroUpgrades = new Dictionary<Upgrade, int>();
             PlayerHeroes.HeroUpgrades = data.upgrades;
             print("Loaded player");
 
@@ -79,7 +80,7 @@ public class GameEvents : MonoBehaviour {
             var randomHero = heroes[UnityEngine.Random.Range(0, heroes.Count)];
 
             var hero = (Hero)Activator.CreateInstance(randomHero);
-
+            PlayerHeroes.HeroUpgrades = new Dictionary<Upgrade, int>();
             PlayerHeroes.AddHero(hero);
             PlayerHeroes.SetCurrentHero(hero);
         }
@@ -96,88 +97,5 @@ public class GameEvents : MonoBehaviour {
         ItemComponent temp = (Instantiate(baseItem, position, Quaternion.identity) as GameObject).GetComponent<ItemComponent>();
         temp.item = item;
         temp.setItemSprite(item.sprite);
-    }
-
-    public void RandomizePlayer() {
-
-
-        SaveData data = GameSaver.LoadData();
-
-        Stats playerStats = new Stats();
-        string sprite = "Base";
-
-        if (data != null) {
-
-            //sprite = data.sprite;
-
-            //playerStats.baseHealth = data.hp;
-            //playerStats.baseMana = data.mana;
-            //playerStats.basePower = data.power;
-            //playerStats.expGrantedFromKill = 1;
-            //playerStats.movementSpeed = data.movementSpeed;
-            //playerStats.currentLevel = data.level;
-
-            //player.AddComponent(data.offensiveAbility);
-            //player.AddComponent(data.defensiveAbility);
-
-            PlayerItems.gold = data.gold;
-            print("Loaded player");
-
-        } else {
-
-
-            sprite = sprites[UnityEngine.Random.Range(0, sprites.Count)];
-
-            int statLeft = statPoints;
-
-            int hp = 1;
-            int mana = 1;
-            int power = 1;
-
-            while (statLeft > 0) {
-                int random = UnityEngine.Random.Range(0, 3);
-                switch (random) {
-                    case 0:
-                        hp++;
-                        break;
-                    case 1:
-                        mana++;
-                        break;
-                    case 2:
-                        power++;
-                        break;
-                }
-                statLeft--;
-            }
-
-
-            print("hp:" + hp + " mana:" + mana + " power:" + power);
-
-
-            playerStats.baseHealth = (int)StatMultipliers.health * hp;
-            playerStats.baseMana = (int)StatMultipliers.mana * mana;
-            playerStats.basePower = (int)StatMultipliers.power * power;
-            playerStats.expGrantedFromKill = 1;
-            playerStats.movementSpeed = 4;
-            playerStats.currentLevel = 1;
-
-            SpellRandmizer SR = new SpellRandmizer();
-
-            player.AddComponent(SR.GetRandomOffensive());
-            player.AddComponent(SR.GetRandomDefensive());
-
-        }
-
-
-        RandomizedClass pc = player.GetComponent<RandomizedClass>();
-        pc.playerStats = playerStats;
-        pc.spriteSheetName = sprite;
-        pc.Setup();
-
-
-
-    }
-
-
-
+    }   
 }

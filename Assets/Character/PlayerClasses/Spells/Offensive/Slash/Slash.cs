@@ -32,9 +32,9 @@ public class Slash : OffensiveSpell {
         Destroy(go, 2);
         if (hit != null) {
             if (hit.GetComponent<Health>())
-                hit.GetComponent<Health>().TakeDamage(power);
+                hit.GetComponent<Health>().TakeDamage(power + PlayerHeroes.GetPlayerPower);
             else if (hit.GetComponentInParent<Health>())
-                hit.GetComponentInParent<Health>().TakeDamage(power);
+                hit.GetComponentInParent<Health>().TakeDamage(power + PlayerHeroes.GetPlayerPower);
 
         }
     }

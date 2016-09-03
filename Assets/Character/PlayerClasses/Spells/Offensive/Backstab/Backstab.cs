@@ -37,7 +37,7 @@ public class Backstab : OffensiveSpell {
                 if (multip == backstabMultip)
                     go.GetComponentInChildren<SpriteRenderer>().color = Color.red;
             }
-            hit.GetComponent<Health>().TakeDamage(power * multip);
+            hit.GetComponent<Health>().TakeDamage((PlayerHeroes.GetPlayerPower + power) * multip);
         }
     }
 }

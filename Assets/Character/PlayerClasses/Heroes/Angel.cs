@@ -15,6 +15,7 @@ public class Angel : Hero {
         mana = 30;
         power = 10;
         stamina = 0;
+        infiniteJumps = true;
 
         movementSpeed = 3;
 

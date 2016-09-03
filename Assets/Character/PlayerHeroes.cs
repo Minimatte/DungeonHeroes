@@ -13,6 +13,7 @@ public class PlayerHeroes {
 
     public static Dictionary<Upgrade, int> HeroUpgrades;
 
+    public static int GetPlayerPower { get { if (HeroUpgrades.ContainsKey(Upgrade.Power)) return currentHero.power + HeroUpgrades[Upgrade.Power]; else return currentHero.power; } }
 
     public static void NextHero() {
         var index = heroes.IndexOf(currentHero);

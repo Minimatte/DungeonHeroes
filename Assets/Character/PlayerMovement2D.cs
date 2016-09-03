@@ -17,8 +17,11 @@ public class PlayerMovement2D : MonoBehaviour {
     public float GetRightValue { get { return transform.localScale.x; } }
     public Vector3 GetRightVector { get { return new Vector3(transform.localScale.x, 0, 0); } }
 
-
+    [HideInInspector]
+    public Hero hero;
     bool groundedLeft, groundedRight;
+
+    [HideInInspector]
     public GameObject leftGroundCheck, rightGroundCheck;
 
     public int airJumps = 0;
@@ -38,6 +41,7 @@ public class PlayerMovement2D : MonoBehaviour {
         if (GetComponent<Animator>())
             anim = GetComponent<Animator>();
 
+        hero = GetComponent<HeroClass>().hero;
     }
 
     public bool canMoveX {
@@ -133,7 +137,7 @@ public class PlayerMovement2D : MonoBehaviour {
             Flip();
 
         if (Input.GetButtonDown("Jump")) {
-            if (grounded || stamina == 0) {
+            if (grounded || hero.infiniteJumps) {
                 Jump(1, true);
             } else if (hasEnoughStamina) {
                 Jump(1, true);

@@ -54,7 +54,13 @@ public class BuyableHero : Buyable {
 
     private void BuyHero() {
         if (PlayerHeroes.FullHeroes) {
-            PlayerHeroes.HeroUpgrades[hero.upgrade] += hero.upgradeAmount;
+            if (PlayerHeroes.HeroUpgrades == null)
+                PlayerHeroes.HeroUpgrades = new Dictionary<Upgrade, int>();
+
+            if (!PlayerHeroes.HeroUpgrades.ContainsKey(hero.upgrade))
+                PlayerHeroes.HeroUpgrades.Add(hero.upgrade, hero.upgradeAmount);
+            else
+                PlayerHeroes.HeroUpgrades[hero.upgrade] += hero.upgradeAmount;
         } else {
             PlayerHeroes.AddHero(hero);
         }

@@ -531,7 +531,15 @@ MonoBehaviour:
   - {fileID: 1000013136244492, guid: 5a5ba7d373bd18943b711062da535e29, type: 2}
   - {fileID: 1000012122139108, guid: b174e70d713354c458731471db5a2dbb, type: 2}
   - {fileID: 1000011555203220, guid: e8ee84372594b614da72b6206fda4bb1, type: 2}
-  - {fileID: 1000010728723842, guid: bc9150599a4b1d74592fb6453408ff6c, type: 2}
+  - {fileID: 1000012400105464, guid: 4b1f9fc9bc6ae3547ac249167203f3a1, type: 2}
+  - {fileID: 1000012147978788, guid: c5fd20263591a4d41b9ed698452cb53f, type: 2}
+  - {fileID: 1000012592230100, guid: 02f92d6cc71cc5b499f0ee0a13fec79b, type: 2}
+  - {fileID: 1000013136244492, guid: 5a5ba7d373bd18943b711062da535e29, type: 2}
+  - {fileID: 1000012122139108, guid: b174e70d713354c458731471db5a2dbb, type: 2}
+  - {fileID: 1000011555203220, guid: e8ee84372594b614da72b6206fda4bb1, type: 2}
+  - {fileID: 1000013136244492, guid: 5a5ba7d373bd18943b711062da535e29, type: 2}
+  - {fileID: 1000012122139108, guid: b174e70d713354c458731471db5a2dbb, type: 2}
+  - {fileID: 1000011555203220, guid: e8ee84372594b614da72b6206fda4bb1, type: 2}
   maxProps: 10
   ChanceToSpawnProps: 55
   Foreground:

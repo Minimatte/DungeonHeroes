@@ -148,7 +148,7 @@ MonoBehaviour:
       Rotation: 0
       FlipHorizontally: 0
       FlipVertically: 0
-      OrderInLayer: 0
+      OrderInLayer: -15
       Tag: Untagged
     - Sprite: {fileID: 21300028, guid: f75ff6477f154f340964934d18f9d703, type: 3}
       Collision: 1
@@ -211,7 +211,7 @@ MonoBehaviour:
       Rotation: 0
       FlipHorizontally: 0
       FlipVertically: 0
-      OrderInLayer: 0
+      OrderInLayer: -15
       Tag: Untagged
     - Sprite: {fileID: 21300042, guid: f75ff6477f154f340964934d18f9d703, type: 3}
       Collision: 1
@@ -418,7 +418,7 @@ MonoBehaviour:
       Rotation: 0
       FlipHorizontally: 0
       FlipVertically: 0
-      OrderInLayer: 0
+      OrderInLayer: -15
       Tag: Untagged
     - Sprite: {fileID: 21300088, guid: f75ff6477f154f340964934d18f9d703, type: 3}
       Collision: 1

@@ -20,9 +20,11 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012453927000}
   - 95: {fileID: 95000014071394340}
-  m_Layer: 10
+  - 114: {fileID: 114000012719742700}
+  - 61: {fileID: 61000013154411822}
+  m_Layer: 0
   m_Name: NPC Wizard
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +38,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011848931236}
   - 212: {fileID: 212000012336134660}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Foot_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +54,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010232416376}
   - 212: {fileID: 212000011505461460}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Foot_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +70,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010492016858}
   - 212: {fileID: 212000013390374902}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Hand_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +86,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013889093068}
   - 212: {fileID: 212000012575788092}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Backpack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +102,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013658879824}
   - 212: {fileID: 212000010625063940}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Hand_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,7 +118,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011651158264}
   - 212: {fileID: 212000013134803706}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +150,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000013457209426}
   - 212: {fileID: 212000012039150194}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -280,6 +282,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4000011651158264}
   m_RootOrder: 0
+--- !u!61 &61000013154411822
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010874638390}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
 --- !u!95 &95000014071394340
 Animator:
   serializedVersion: 3
@@ -297,6 +313,18 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000012719742700
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010874638390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9f5cff6b037f6b47852550c67f33242, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  signText: Hello!
 --- !u!212 &212000010625063940
 SpriteRenderer:
   m_ObjectHideFlags: 1

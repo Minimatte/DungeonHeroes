@@ -256,6 +256,18 @@ MonoBehaviour:
   Traps: []
   maxTraps: 0
   ChanceToSpawnTraps: 0
+  Props:
+  - {fileID: 1000013355460868, guid: 3540d19f1a69447458678cad4a070d90, type: 2}
+  - {fileID: 1000011141808902, guid: 9cba15a7006270f439b88b39197982ec, type: 2}
+  - {fileID: 1000010984198144, guid: e6e4d41fb55845c4f8558f2dcace7bcc, type: 2}
+  - {fileID: 1000011614919000, guid: 4043bf394a60c5a428e1ffb0b5073ec5, type: 2}
+  - {fileID: 1000011286032310, guid: 22b622a2671ecb547b69ffe257675c9e, type: 2}
+  - {fileID: 1000014016690678, guid: 621a61a9b63e1fa49a7368a24dcdb9d5, type: 2}
+  - {fileID: 1000010893954896, guid: 60fad00e0f9a1d54b915941a99175bba, type: 2}
+  maxProps: 8
+  ChanceToSpawnProps: 80.4
+  Foreground: []
+  ChanceToSpawnForeground: 0
   roomMinSize: {x: 12, y: 6}
   roomMaxSize: {x: 18, y: 10}
   corridorSize: 1

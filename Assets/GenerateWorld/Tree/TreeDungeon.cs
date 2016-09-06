@@ -224,16 +224,13 @@ public class TreeDungeon : MonoBehaviour {
                 if (!hit.gameObject.GetComponent<HeroClass>())
                     Destroy(hit.gameObject);
             }
-
         }
-
 
         foreach (Room r in roomList) {
             CleanupCorridors(r, r.rightRoom);
             CleanupCorridors(r, r.leftRoom);
         }
     }
-
 
     private void CleanupCorridors(Room a, Room b) {
         if (a == null || b == null) {
@@ -272,11 +269,9 @@ public class TreeDungeon : MonoBehaviour {
     }
 
     private void MakeCorridors(Room room) {
-
         if (room == null) {
             return;
         }
-
 
         MakeCorridorBetween(room, room.leftRoom);
         MakeCorridorBetween(room, room.rightRoom);
@@ -286,19 +281,15 @@ public class TreeDungeon : MonoBehaviour {
     }
 
     private void MakeCorridorBetween(Room a, Room b) {
-
         if (a == null || b == null)
             return;
 
         var direction = (b.position - a.position);
-
         var multip = direction.x >= 0 ? 1 : -1;
-
 
         for (int x = 0; x < Mathf.Abs(direction.x) + corridorSize + 1; x++) {
             for (int y = -corridorSize; y <= corridorSize; y++) {
                 if (y == -corridorSize || y == corridorSize) {
-                    //Instantiate(floorTile, a.position + new Vector2(x, y) * multip, Quaternion.identity);
                 } else {
                     Collider2D hit = Physics2D.OverlapPoint(a.position + new Vector2(x, y) * multip);
                     if (hit != null && !hit.CompareTag("Object"))
@@ -312,7 +303,6 @@ public class TreeDungeon : MonoBehaviour {
         for (int y = 0; y < Mathf.Abs(direction.y); y++) {
             for (int x = -corridorSize; x <= corridorSize; x++) {
                 if (x == -corridorSize || x == corridorSize) {
-                    //Instantiate(wallTile[Random.Range(0, wallTile.Length)], a.position + new Vector2(x + direction.x * multip, y) * multip, Quaternion.identity);
                     continue;
                 } else {
                     Collider2D hit = Physics2D.OverlapPoint(a.position + new Vector2(x + direction.x * multip, y) * multip);

@@ -330,7 +330,10 @@ MonoBehaviour:
     power: 0
     level: 0
     stamina: 0
+    infiniteJumps: 0
     movementSpeed: 2
+    upgrade: 0
+    upgradeAmount: 0
   spriteSheetName: 
 --- !u!114 &11419204
 MonoBehaviour:
@@ -362,11 +365,23 @@ MonoBehaviour:
   canMove: 1
   jumpForce: 7
   speed: 3
+  hero:
+    heroName: NONE
+    spriteName: base
+    headIcon: {fileID: 0}
+    health: 0
+    mana: 0
+    power: 0
+    level: 0
+    stamina: 0
+    infiniteJumps: 0
+    movementSpeed: 2
+    upgrade: 0
+    upgradeAmount: 0
   leftGroundCheck: {fileID: 103228}
   rightGroundCheck: {fileID: 164666}
   airJumps: 0
   facingRight: 1
-  strafeCooldown: 0
 --- !u!114 &11475412
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -383,8 +398,10 @@ MonoBehaviour:
   healthRegen: 0
   hasDamageFrames: 1
   damageFramesTime: 0.5
+  canTakeDamage: 1
   deathEffects: []
   deathSoundEffects: []
+  takeDamageSound: {fileID: 8300000, guid: df3607a0e301b1b409d8118daa59b0b3, type: 3}
 --- !u!114 &11487936
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -16,15 +16,12 @@ public class TreeDungeon : MonoBehaviour {
     public GameObject WallLeft;
     public GameObject roofTile;
     public GameObject[] wallTile;
+    public GameObject backgroundtile;
     [Space(5)]
     public GameObject bottomLeft;
     public GameObject bottomRight;
     public GameObject topLeft;
     public GameObject topRight;
-
-    [Header("Corridor Tiles")]
-    public GameObject corridorLeft;
-    public GameObject corridorRight;
 
     [Header("Room Options")]
     Room root;
@@ -188,6 +185,9 @@ public class TreeDungeon : MonoBehaviour {
     private void RoomToWorld(Room newRoom, GameObject go) {
         for (int x = 0; x < newRoom.width; x++) {
             for (int y = 0; y < newRoom.height; y++) {
+                (Instantiate(backgroundtile, new Vector3(newRoom.x + x, newRoom.y + y), Quaternion.identity) as GameObject).transform.SetParent(go.transform);
+
+
                 if (x == 0) { // left wall
 
                     if (y == 0)
@@ -249,6 +249,7 @@ public class TreeDungeon : MonoBehaviour {
                     foreach (Collider2D hit in hits)
                         if (hit != null && !hit.CompareTag("Object"))
                             Destroy(hit.gameObject);
+
                 }
             }
         }
@@ -258,7 +259,6 @@ public class TreeDungeon : MonoBehaviour {
         for (int y = 0; y < Mathf.Abs(direction.y); y++) {
             for (int x = -cSize; x <= cSize; x++) {
                 if (x == -cSize || x == cSize) {
-
                 } else {
                     Collider2D hit = Physics2D.OverlapPoint(a.position + new Vector2(x + direction.x * multip, y) * multip);
                     if (hit != null && !hit.CompareTag("Object"))
@@ -294,6 +294,8 @@ public class TreeDungeon : MonoBehaviour {
                     Collider2D hit = Physics2D.OverlapPoint(a.position + new Vector2(x, y) * multip);
                     if (hit != null && !hit.CompareTag("Object"))
                         Destroy(hit.gameObject);
+                    Instantiate(backgroundtile, a.position + new Vector2(x, y) * multip, Quaternion.identity);
+
                 }
             }
         }
@@ -308,10 +310,14 @@ public class TreeDungeon : MonoBehaviour {
                     Collider2D hit = Physics2D.OverlapPoint(a.position + new Vector2(x + direction.x * multip, y) * multip);
                     if (hit != null)
                         Destroy(hit.gameObject);
+                    Instantiate(backgroundtile, a.position + new Vector2(x + direction.x * multip, y) * multip, Quaternion.identity);
                 }
 
-                if (y > 0 && y < Mathf.Abs(direction.y) - 1)
+                if (y > 0 && y < Mathf.Abs(direction.y) - 1) {
+                    Instantiate(backgroundtile, a.position + new Vector2(x + direction.x * multip, y) * multip, Quaternion.identity);
+
                     Instantiate(jumpBoard, a.position + new Vector2(x + direction.x * multip, y) * multip, Quaternion.identity);
+                }
             }
         }
     }

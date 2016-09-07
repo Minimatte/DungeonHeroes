@@ -4,10 +4,14 @@ using System.Collections.Generic;
 
 [ExecuteInEditMode]
 public class PlayerHealth : Health {
+    public AudioClip takeDamageSound;
 
     public override void TakeDamage(float damageToTake) {
-        if (damageToTake >= 0 && canTakeDamage)
+        if (damageToTake >= 0 && canTakeDamage) {
             Camera.main.GetComponent<CameraMovement2D>().ShakeCamera(0.2f, 1);
+            if (takeDamageSound != null)
+                AudioSource.PlayClipAtPoint(takeDamageSound, transform.position);
+        }
         base.TakeDamage(damageToTake);
     }
 

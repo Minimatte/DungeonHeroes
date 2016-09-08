@@ -23,8 +23,8 @@ GameObject:
   - 50: {fileID: 50000010375031904}
   - 61: {fileID: 61000014003422072}
   - 114: {fileID: 114000011260571598}
-  - 114: {fileID: 114000011024096522}
   - 95: {fileID: 95000011834143536}
+  - 114: {fileID: 114000010811532844}
   m_Layer: 13
   m_Name: IceSlime
   m_TagString: Untagged
@@ -93,7 +93,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114000011024096522
+--- !u!114 &114000010811532844
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000012182969064}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0a74db0d452f3343ac3ccd127c5c39b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1084e8fe87d33be49888948ab56c1236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 60

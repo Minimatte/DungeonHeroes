@@ -9,7 +9,10 @@ public class Backstab : OffensiveSpell {
     private float range = 1;
     private LayerMask hitmask;
 
+    private AudioClip attackSound;
+
     protected override void Init() {
+        attackSound = Resources.Load<AudioClip>("BackstabAttackSound");
         GetComponent<SpellHandler>().canStrafe = true;
         spellName = "Backstab";
         manaCost = 2;
@@ -20,6 +23,9 @@ public class Backstab : OffensiveSpell {
     }
 
     protected override void ActivateSpell() {
+        if (attackSound != null)
+            AudioSource.PlayClipAtPoint(attackSound, transform.position);
+
         Vector2 attackLoc = (Vector2)transform.position + Vector2.right * movement.GetRightValue * range;
         Collider2D hit = Physics2D.OverlapCircle(attackLoc, range, hitmask);
         GameObject go = (GameObject)Instantiate(spellEffect, attackLoc, Quaternion.identity);

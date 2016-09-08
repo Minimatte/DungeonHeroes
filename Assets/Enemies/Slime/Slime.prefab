@@ -12,8 +12,8 @@ GameObject:
   - 50: {fileID: 5053016}
   - 61: {fileID: 6127462}
   - 114: {fileID: 11434784}
-  - 114: {fileID: 11444364}
   - 95: {fileID: 95000012087152866}
+  - 114: {fileID: 114000012772610514}
   m_Layer: 13
   m_Name: Slime
   m_TagString: Untagged
@@ -91,25 +91,6 @@ MonoBehaviour:
   forwardForce: 500
   jumpInterval: 2
   slimeWalkEffect: {fileID: 116708, guid: 10373799967e32946a568259cf4bc66d, type: 2}
---- !u!114 &11444364
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 187786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0a74db0d452f3343ac3ccd127c5c39b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 30
-  currentHealth: 30
-  healthRegen: 0
-  hasDamageFrames: 0
-  damageFramesTime: 0.5
-  canTakeDamage: 1
-  deathEffects: []
-  deathSoundEffects: []
 --- !u!212 &21233968
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -183,3 +164,22 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000012772610514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1084e8fe87d33be49888948ab56c1236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 30
+  currentHealth: 30
+  healthRegen: 0
+  hasDamageFrames: 0
+  damageFramesTime: 0.5
+  canTakeDamage: 1
+  deathEffects: []
+  deathSoundEffects: []

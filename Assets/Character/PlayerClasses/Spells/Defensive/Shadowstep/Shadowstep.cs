@@ -9,13 +9,17 @@ public class Shadowstep : DefensiveSpell {
     LayerMask hitmask;
     float invulnerableTime = 0.5f;
 
+    AudioClip soundEffect;
     GameObject spellEffect;
 
     protected override void ActivateSpell() {
+        
         Collider2D[] hits = Physics2D.OverlapCircleAll((Vector2)transform.position + Vector2.right * movement.GetRightValue * distance, distance, hitmask);
         if (hits.Length > 0) {
             var targets = hits.OrderBy(obj => Mathf.Abs(((Mathf.Atan2((obj.gameObject.transform.position - transform.position).y, (obj.gameObject.transform.position - transform.position).x) * Mathf.Rad2Deg))));
 
+            if (soundEffect != null)
+                AudioSource.PlayClipAtPoint(soundEffect, transform.position);
 
             GameObject go = (GameObject)Instantiate(spellEffect, transform.position, Quaternion.identity);
             go.transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
@@ -48,6 +52,7 @@ public class Shadowstep : DefensiveSpell {
         spellName = "Shadowstep";
         manaCost = 1;
         spellEffect = Resources.Load<GameObject>("Shadowstep");
+        soundEffect = Resources.Load<AudioClip>("ShadowstepSound");
     }
 
     public void OnDrawGizmos() {

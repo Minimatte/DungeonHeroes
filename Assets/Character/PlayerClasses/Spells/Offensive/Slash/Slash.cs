@@ -8,7 +8,10 @@ public class Slash : OffensiveSpell {
     private float range = 1;
     private LayerMask hitmask;
 
+    private AudioClip soundEffect;
+
     protected override void Init() {
+        soundEffect = Resources.Load<AudioClip>("SlashAttackSound");
         GetComponent<SpellHandler>().canStrafe = true;
         spellName = "Slash";
         manaCost = 5;
@@ -19,6 +22,10 @@ public class Slash : OffensiveSpell {
     }
 
     protected override void ActivateSpell() {
+
+        if (soundEffect != null)
+            AudioSource.PlayClipAtPoint(soundEffect, transform.position);
+
         Vector2 attackLoc = (Vector2)transform.position + Vector2.right * movement.GetRightValue * range;
         Collider2D hit = Physics2D.OverlapCircle(attackLoc, range, hitmask);
         GameObject go = (GameObject)Instantiate(spellEffect, attackLoc + Vector2.up * 0.16f, Quaternion.identity);

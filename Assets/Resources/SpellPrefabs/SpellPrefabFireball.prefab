@@ -94,6 +94,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 73728
   hitParticle: {fileID: 0}
+  impactSound: {fileID: 8300000, guid: 65fb6b1b0ca039741bc74bcf5daa23f0, type: 3}
   damageCooldown: 0
   hitEffect: {fileID: 1000012648723718, guid: dde33ba83bbd3a849af23efe5f9692d4, type: 2}
   hitLayers:

@@ -14,6 +14,7 @@ public class Projectile : MonoBehaviour {
     public LayerMask hitMask;
 
     public GameObject hitParticle;
+    public AudioClip impactSound;
 
     public float damageCooldown;
     protected float currentDamageCooldown = 0;

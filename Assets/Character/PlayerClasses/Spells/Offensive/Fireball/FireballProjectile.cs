@@ -8,6 +8,9 @@ public class FireballProjectile : Projectile {
     public LayerMask hitLayers;
 
     void OnCollisionEnter2D(Collision2D other) {
+   
+        
+
         if (hitLayers == (hitLayers | (1 << other.gameObject.layer))) {
 
             GetComponent<Rigidbody2D>().isKinematic = true;
@@ -24,6 +27,9 @@ public class FireballProjectile : Projectile {
     }
 
     public void OnDestroy() {
+        if (impactSound != null)
+            AudioSource.PlayClipAtPoint(impactSound, transform.position);
+
         if (hitEffect != null)
             Destroy(Instantiate(hitEffect, transform.position, Quaternion.Euler(0, 0, Random.Range(0, 360))), 3);
     }

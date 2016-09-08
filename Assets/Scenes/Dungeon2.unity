@@ -492,7 +492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   offsetX: 0
-  offsetY: 0
+  offsetY: 1
   maximumDistance: 2
   playerVelocity: 10
   shake: 0

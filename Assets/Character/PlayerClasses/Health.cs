@@ -11,15 +11,24 @@ public class Health : MonoBehaviour {
     public float damageFramesTime = 0.5f;
     public bool canTakeDamage = true;
 
+    private Animator anim;
 
     public List<GameObject> deathEffects;
     public List<AudioClip> deathSoundEffects;
+
+
+    void Start() {
+        anim = GetComponent<Animator>();
+    }
 
     public virtual void TakeDamage(float damageToTake) {
         if (!canTakeDamage)
             return;
 
         currentHealth -= damageToTake;
+
+        if (anim != null)
+            anim.SetTrigger("TakeDamage");
 
         if (hasDamageFrames) {
             StartCoroutine(DamageFrames(damageFramesTime));

@@ -177,6 +177,7 @@ MonoBehaviour:
   topRight: {fileID: 1000010682619662, guid: 08d58dba735772c41b105ce324d2c79d, type: 2}
   Enemies:
   - {fileID: 1000012182969064, guid: 1e6a9cee8fa0ffd478a3a0effc056320, type: 2}
+  - {fileID: 1000011882517326, guid: 138fb9f6bbe171846af27ac5541996c4, type: 2}
   EnemiesMinMax: {x: 1, y: 4}
   Traps: []
   maxTraps: 0

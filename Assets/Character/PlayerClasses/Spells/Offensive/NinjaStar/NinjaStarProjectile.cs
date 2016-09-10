@@ -20,6 +20,5 @@ public class NinjaStarProjectile : Projectile {
                 other.gameObject.GetComponent<Health>().TakeDamage(damage);
             GetComponent<Collider2D>().enabled = false;
         }
-
     }
 }

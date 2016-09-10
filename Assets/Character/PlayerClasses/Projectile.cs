@@ -85,4 +85,9 @@ public class Projectile : MonoBehaviour {
         yield return new WaitForSeconds(time);
         Destroy(gameObject);
     }
+
+    public void OnDestroy() {
+        if (impactSound != null)
+            AudioSource.PlayClipAtPoint(impactSound, transform.position);
+    }
 }

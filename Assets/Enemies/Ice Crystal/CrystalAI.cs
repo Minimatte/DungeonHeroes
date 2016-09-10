@@ -19,8 +19,8 @@ public class CrystalAI : Enemy {
 
 
     public void SpawnProjectile() {
-        
-        Instantiate(projectile, projectileSpawnPos.position, Quaternion.FromToRotation(Vector2.right, ((Vector2)target.transform.position + Vector2.up * 0.16f) - (Vector2)transform.position));
+        if (target != null)
+            Instantiate(projectile, projectileSpawnPos.position, Quaternion.FromToRotation(Vector2.right, ((Vector2)target.transform.position + Vector2.up * 0.16f) - (Vector2)transform.position));
     }
 
     void Update() {

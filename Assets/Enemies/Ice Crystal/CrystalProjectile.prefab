@@ -184,7 +184,7 @@ MonoBehaviour:
     m_Bits: 1280
   hitParticle: {fileID: 1000011568548542, guid: de19bbeb5d092dd4a9bb12d4899922eb,
     type: 2}
-  impactSound: {fileID: 0}
+  impactSound: {fileID: 8300000, guid: 5a1d620e1f934424a9555549ac624b07, type: 3}
   damageCooldown: 1
 --- !u!212 &212000011595191130
 SpriteRenderer:

@@ -25,6 +25,7 @@ public class TreeDungeon : MonoBehaviour {
 
     [Header("Room Options")]
     Room root;
+    public bool canOverlap = false;
 
     [Header("Enemies")]
     public List<GameObject> Enemies;
@@ -81,7 +82,7 @@ public class TreeDungeon : MonoBehaviour {
         ClearRooms();
 
         if (GameEvents.player == null) {
-            print("Gameevents player is null. Probably started game in the wrong scene!");
+            print("GameEvents player is null. Probably started game in the wrong scene!");
 
             GameObject p = Instantiate(player, root.position, Quaternion.identity) as GameObject;
             (Instantiate(gameEvents) as GameObject).GetComponent<GameEvents>().RandomizeHero();
@@ -181,12 +182,10 @@ public class TreeDungeon : MonoBehaviour {
 
     }
 
-
     private void RoomToWorld(Room newRoom, GameObject go) {
         for (int x = 0; x < newRoom.width; x++) {
             for (int y = 0; y < newRoom.height; y++) {
                 (Instantiate(backgroundtile, new Vector3(newRoom.x + x, newRoom.y + y), Quaternion.identity) as GameObject).transform.SetParent(go.transform);
-
 
                 if (x == 0) { // left wall
 
@@ -211,6 +210,10 @@ public class TreeDungeon : MonoBehaviour {
                     (Instantiate(roofTile, new Vector3(newRoom.x + x, newRoom.y + y), Quaternion.identity) as GameObject).transform.SetParent(go.transform);
                 } else if (y == 0) // floor
                     (Instantiate(floorTile, new Vector3(newRoom.x + x, newRoom.y + y), Quaternion.identity) as GameObject).transform.SetParent(go.transform);
+
+            
+
+
             }
         }
     }

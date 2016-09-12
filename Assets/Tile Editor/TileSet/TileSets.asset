@@ -25,7 +25,7 @@ MonoBehaviour:
   - Name: Set
     TileList:
     - Sprite: {fileID: 21300000, guid: f75ff6477f154f340964934d18f9d703, type: 3}
-      Collision: 0
+      Collision: 1
       PhysicsMaterial: {fileID: 0}
       IsTrigger: 0
       Rotation: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
       Rotation: 0
       FlipHorizontally: 0
       FlipVertically: 0
-      OrderInLayer: 0
+      OrderInLayer: -15
       Tag: Untagged
     - Sprite: {fileID: 21300032, guid: f75ff6477f154f340964934d18f9d703, type: 3}
       Collision: 0
@@ -382,7 +382,7 @@ MonoBehaviour:
       Rotation: 0
       FlipHorizontally: 0
       FlipVertically: 0
-      OrderInLayer: 0
+      OrderInLayer: -15
       Tag: Untagged
     - Sprite: {fileID: 21300080, guid: f75ff6477f154f340964934d18f9d703, type: 3}
       Collision: 0

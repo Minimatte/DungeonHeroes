@@ -145,8 +145,10 @@ MonoBehaviour:
   bottomRight: {fileID: 103026, guid: 078877c6255e58646ae4f2900d584a99, type: 2}
   topLeft: {fileID: 144626, guid: 3902c1f670fa44849a50f93eb27f6443, type: 2}
   topRight: {fileID: 186148, guid: 3e6f39d27a8bf08489a74f38e9f84cd5, type: 2}
+  canOverlap: 0
   Enemies:
   - {fileID: 187786, guid: c98f39635ccd85e4585bdc54314f76d7, type: 2}
+  - {fileID: 139838, guid: 33b3efcbd2bc7414f96b5065aacf7dd2, type: 2}
   EnemiesMinMax: {x: 2, y: 4}
   Traps:
   - {fileID: 1000011593214362, guid: db62c0bd96156e74396e640d5b80b2a9, type: 2}
@@ -169,13 +171,14 @@ MonoBehaviour:
   ChanceToSpawnProps: 55
   Foreground:
   - {fileID: 1000013120577666, guid: 4eb2a01e8642cea45953d3ecb541f6ca, type: 2}
+  - {fileID: 1000012818368828, guid: 88c8103e8a96e7d42b7c4b758411da9d, type: 2}
   ChanceToSpawnForeground: 2
   roomMinSize: {x: 12, y: 6}
   roomMaxSize: {x: 14, y: 8}
   corridorSize: 1
-  maxDistance: 16
+  maxDistance: 15
   minDistance: 2
-  iterations: 5
+  iterations: 7
 --- !u!1001 &945742179
 Prefab:
   m_ObjectHideFlags: 0

@@ -78,9 +78,11 @@ public class Room {
             Vector2 topLeft = new Vector2(x + distanceAwayX * direction.x, y + distanceAwayY * direction.y);
             Vector2 bottomRight = new Vector2(x + distanceAwayX * direction.x + roomWidth, y + distanceAwayY * direction.y + roomHeight);
 
-            if (Physics2D.OverlapArea(topLeft, bottomRight) != null) {
-                continue;
-            }
+
+            if (!dungeon.canOverlap)
+                if (Physics2D.OverlapArea(topLeft, bottomRight) != null) {
+                    continue;
+                }
 
             if (rightRoom == null) {
                 rightRoom = new Room(Mathf.FloorToInt(x + distanceAwayX * direction.x), Mathf.FloorToInt(y + distanceAwayY * direction.y), roomWidth, roomHeight, dungeon);

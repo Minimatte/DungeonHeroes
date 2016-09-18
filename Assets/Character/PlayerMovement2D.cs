@@ -21,6 +21,7 @@ public class PlayerMovement2D : MonoBehaviour {
     public Hero hero;
     bool groundedLeft, groundedRight;
 
+
     [HideInInspector]
     public GameObject leftGroundCheck, rightGroundCheck;
 

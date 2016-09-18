@@ -175,12 +175,14 @@ MonoBehaviour:
     type: 2}
   topLeft: {fileID: 1000011494830932, guid: 0943656b721826d4b8be7c4b6cabfa46, type: 2}
   topRight: {fileID: 1000011494830932, guid: 0943656b721826d4b8be7c4b6cabfa46, type: 2}
+  canOverlap: 0
   Enemies:
   - {fileID: 1000013331577272, guid: 9f558cfc2f13def4385142a6b68b762a, type: 2}
   EnemiesMinMax: {x: 1, y: 4}
-  Traps: []
-  maxTraps: 0
-  ChanceToSpawnTraps: 0
+  Traps:
+  - {fileID: 1000013317760310, guid: 2b78e5783dd7ee94d9efbeb18af0c721, type: 2}
+  maxTraps: 5
+  ChanceToSpawnTraps: 72
   Props: []
   maxProps: 0
   ChanceToSpawnProps: 0

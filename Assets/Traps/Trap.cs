@@ -6,7 +6,7 @@ public class Trap : MonoBehaviour {
     public LayerMask hitmask;
     public Animator anim;
     public float cooldown = 1;
-    private float currentCooldown = 0;
+    protected float currentCooldown = 0;
 
     public AudioClip triggerSound;
 
@@ -29,17 +29,18 @@ public class Trap : MonoBehaviour {
         if (currentCooldown > 0)
             return;
 
-        if (hitmask == (hitmask | (1 << collision.gameObject.layer))) {
+        if (anim != null && hitmask == (hitmask | (1 << collision.gameObject.layer))) {
             anim.SetTrigger("Trigger");
             currentCooldown = cooldown;
         }
     }
 
     public void PlayTrapSound() {
-        AudioSource.PlayClipAtPoint(triggerSound, transform.position);
+        if (triggerSound != null)
+            AudioSource.PlayClipAtPoint(triggerSound, transform.position);
     }
 
-    public void DealDamage() {
+    public virtual void DealDamage() {
         Collider2D[] hits = Physics2D.OverlapBoxAll(transform.position + Vector3.up * 0.16f, Vector2.one, 90, hitmask);
 
         PlayTrapSound();

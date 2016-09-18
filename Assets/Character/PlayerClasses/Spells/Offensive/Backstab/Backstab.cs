@@ -26,19 +26,19 @@ public class Backstab : OffensiveSpell {
         if (attackSound != null)
             AudioSource.PlayClipAtPoint(attackSound, transform.position);
 
-        Vector2 attackLoc = (Vector2)transform.position + Vector2.right * movement.GetRightValue * range;
-        Collider2D hit = Physics2D.OverlapCircle(attackLoc, range, hitmask);
-        GameObject go = (GameObject)Instantiate(spellEffect, attackLoc, Quaternion.identity);
+        Vector2 attackLocation = (Vector2)transform.position + Vector2.right * movement.GetRightValue * range;
+        Collider2D hit = Physics2D.OverlapCircle(attackLocation, range, hitmask);
+        GameObject go = (GameObject)Instantiate(spellEffect, attackLocation, Quaternion.identity);
         go.transform.localScale = new Vector3(go.transform.localScale.x * -movement.GetRightValue, go.transform.localScale.y, go.transform.localScale.z);
-        Destroy(go, 2);
+        Destroy(go, 2); // destroy the effect in 2 seconds.
         if (hit != null) {
             float multip = 1;
-            if (hit.gameObject.GetComponent<Enemy>() != null) {
+            if (hit.gameObject.GetComponent<Enemy>() != null) { // if the health script is on the object we hit
 
                 multip = Vector2.Dot(movement.GetRightVector, hit.gameObject.GetComponent<Enemy>().GetRightVector) > 0 ? 1 : backstabMultip;
                 if (multip == backstabMultip)
                     go.GetComponentInChildren<SpriteRenderer>().color = Color.red;
-            } else {
+            } else { // if the health script is in the objects parent.
                 multip = Vector2.Dot(movement.GetRightVector, hit.gameObject.GetComponentInParent<Enemy>().GetRightVector) > 0 ? 1 : backstabMultip;
                 if (multip == backstabMultip)
                     go.GetComponentInChildren<SpriteRenderer>().color = Color.red;

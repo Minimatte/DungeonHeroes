@@ -175,13 +175,17 @@ MonoBehaviour:
     type: 2}
   topLeft: {fileID: 1000010682619662, guid: 08d58dba735772c41b105ce324d2c79d, type: 2}
   topRight: {fileID: 1000010682619662, guid: 08d58dba735772c41b105ce324d2c79d, type: 2}
+  canOverlap: 0
   Enemies:
   - {fileID: 1000012182969064, guid: 1e6a9cee8fa0ffd478a3a0effc056320, type: 2}
   - {fileID: 1000011882517326, guid: 138fb9f6bbe171846af27ac5541996c4, type: 2}
   EnemiesMinMax: {x: 2, y: 6}
-  Traps: []
-  maxTraps: 0
-  ChanceToSpawnTraps: 0
+  Traps:
+  - {fileID: 1000010688912152, guid: b1966dec4a2e149489eab248cc976d78, type: 2}
+  - {fileID: 1000012651105118, guid: 6cce0f1298e4a1f4697fad9482b9c01b, type: 2}
+  - {fileID: 1000010691901980, guid: b41e40769fc25024c85256c9d466b7de, type: 2}
+  maxTraps: 5
+  ChanceToSpawnTraps: 73
   Props:
   - {fileID: 1000013355460868, guid: 3540d19f1a69447458678cad4a070d90, type: 2}
   - {fileID: 1000011141808902, guid: 9cba15a7006270f439b88b39197982ec, type: 2}
@@ -195,7 +199,7 @@ MonoBehaviour:
   Foreground: []
   ChanceToSpawnForeground: 0
   roomMinSize: {x: 12, y: 6}
-  roomMaxSize: {x: 18, y: 10}
+  roomMaxSize: {x: 18, y: 9}
   corridorSize: 1
   maxDistance: 16
   minDistance: 2

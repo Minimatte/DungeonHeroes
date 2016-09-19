@@ -75,6 +75,7 @@ public class EnemyCharging : Enemy {
         isCharging = true;
         chargeCooldown = chargeCooldownMax;
 
+        GetComponent<Animator>().SetTrigger("Attack");
 
         RaycastHit2D hit = Physics2D.Linecast(transform.position, transform.position + (-Vector3.right * transform.localScale.x) * 5, 1 << LayerMask.NameToLayer("Ground"));
         Vector3 endPos;
@@ -84,6 +85,7 @@ public class EnemyCharging : Enemy {
             endPos = transform.position + (-Vector3.right * transform.localScale.x) * 5;
         patrolLocation = endPos;
         yield return new WaitForSeconds(1);
+        GetComponent<Animator>().SetTrigger("Attack");
         while (Vector2.Distance(transform.position, endPos) > 1.5f) {
             transform.position = Vector3.MoveTowards(transform.position, endPos, speed * Time.deltaTime * 10);
             yield return 0;
@@ -91,5 +93,18 @@ public class EnemyCharging : Enemy {
         yield return new WaitForSeconds(1);
         isCharging = false;
         yield return null;
+    }
+
+    protected void Attack(Collision2D collision) {
+        if (collision.gameObject.GetComponent<Health>())
+            collision.gameObject.GetComponent<Health>().TakeDamage(attackProperties.damage);
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.gameObject.CompareTag("Player")) {
+            Attack(collision);
+        }
+
+        
     }
 }

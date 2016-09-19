@@ -178,6 +178,7 @@ MonoBehaviour:
   canOverlap: 0
   Enemies:
   - {fileID: 1000013331577272, guid: 9f558cfc2f13def4385142a6b68b762a, type: 2}
+  - {fileID: 179902, guid: ee6ebb512c1c1c54c978a8c9d693261c, type: 2}
   EnemiesMinMax: {x: 1, y: 4}
   Traps:
   - {fileID: 1000013317760310, guid: 2b78e5783dd7ee94d9efbeb18af0c721, type: 2}

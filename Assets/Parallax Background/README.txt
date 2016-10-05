@@ -1,3 +1,6 @@
+MADE BY FREDRIK TUMLIN
+
+
 Put "ParallaxCamera" on the camera.
 Put "ParallaxBackground" on an empty gameObject with children.
 Put "ParallaxLayer" on each child of the empty gameObject

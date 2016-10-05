@@ -43,6 +43,12 @@ public class TreeDungeon : MonoBehaviour {
     [Range(0, 100)]
     public float ChanceToSpawnProps = 0;
 
+    [Header("RoofDeco")]
+    public List<GameObject> RoofDeco;
+    public int maxRoofDeco = 0;
+    [Range(0, 100)]
+    public float ChanceToSpawnRoofDeco = 0;
+
     [Header("Foreground")]
     public List<GameObject> Foreground;
     [Range(0, 10)]
@@ -79,7 +85,9 @@ public class TreeDungeon : MonoBehaviour {
         FillWorld();
         ClearRooms();
         ClearRooms();
-        ClearRooms();
+        
+
+
 
         if (GameEvents.player == null) {
             print("GameEvents player is null. Probably started game in the wrong scene!");
@@ -179,6 +187,9 @@ public class TreeDungeon : MonoBehaviour {
         instance.Props = Props;
         instance.maxProps = maxProps;
         instance.ChanceToSpawnProps = ChanceToSpawnProps;
+        instance.RoofDeco = RoofDeco;
+        instance.maxRoofDeco = maxRoofDeco;
+        instance.ChanceToSpawnRoofDeco = ChanceToSpawnRoofDeco;
 
     }
 

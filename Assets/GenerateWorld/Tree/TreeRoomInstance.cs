@@ -20,6 +20,9 @@ public class TreeRoomInstance : MonoBehaviour {
     public int maxProps = 0;
     public float ChanceToSpawnProps = 0;
 
+    public List<GameObject> RoofDeco;
+    public int maxRoofDeco = 0;
+    public float ChanceToSpawnRoofDeco = 0;
 
     public List<GameObject> Enemies;
     public Vector2 EnemiesMinMax = Vector2.zero;
@@ -40,6 +43,9 @@ public class TreeRoomInstance : MonoBehaviour {
 
             if (CheckForPropChance())
                 SpawnProps();
+
+            if (CheckForRoofDecoChance() && RoofDeco.Count > 0)
+                SpawnRoofDeco();
 
             SpawnEnemies((int)EnemiesMinMax.x, (int)EnemiesMinMax.y);
         }
@@ -129,4 +135,29 @@ public class TreeRoomInstance : MonoBehaviour {
         Instantiate(Resources.Load<GameObject>("Portal"), hit.point, Quaternion.identity);
     }
 
+    private void SpawnRoofDeco() {
+
+        int decoAmount = 0;
+
+        do {
+            Vector2 random = room.RandomPositionInRoom;
+            RaycastHit2D hit = Physics2D.Linecast(random, random + Vector2.up * room.height, 1 << LayerMask.NameToLayer("Ground"));
+
+            if (hit.collider.CompareTag("Object"))
+                continue;
+
+            decoAmount++;
+            Instantiate(RoofDeco[Random.Range(0, RoofDeco.Count)], hit.point, Quaternion.identity);
+        } while (CheckForRoofDecoChance() && decoAmount < maxRoofDeco);
+    }
+
+    private bool CheckForRoofDecoChance() {
+        if (Props == null || Props.Count == 0)
+            return false;
+
+        if (Random.Range(0, 100) < ChanceToSpawnRoofDeco)
+            return true;
+        else
+            return false;
+    }
 }

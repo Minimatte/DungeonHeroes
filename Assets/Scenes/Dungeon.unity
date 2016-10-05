@@ -147,8 +147,12 @@ MonoBehaviour:
   topRight: {fileID: 186148, guid: 3e6f39d27a8bf08489a74f38e9f84cd5, type: 2}
   canOverlap: 0
   Enemies:
-  - {fileID: 187786, guid: c98f39635ccd85e4585bdc54314f76d7, type: 2}
   - {fileID: 139838, guid: 33b3efcbd2bc7414f96b5065aacf7dd2, type: 2}
+  - {fileID: 187786, guid: c98f39635ccd85e4585bdc54314f76d7, type: 2}
+  - {fileID: 187786, guid: c98f39635ccd85e4585bdc54314f76d7, type: 2}
+  - {fileID: 187786, guid: c98f39635ccd85e4585bdc54314f76d7, type: 2}
+  - {fileID: 187786, guid: c98f39635ccd85e4585bdc54314f76d7, type: 2}
+  - {fileID: 187786, guid: c98f39635ccd85e4585bdc54314f76d7, type: 2}
   EnemiesMinMax: {x: 2, y: 4}
   Traps:
   - {fileID: 1000011593214362, guid: db62c0bd96156e74396e640d5b80b2a9, type: 2}
@@ -169,6 +173,17 @@ MonoBehaviour:
   - {fileID: 1000011555203220, guid: e8ee84372594b614da72b6206fda4bb1, type: 2}
   maxProps: 10
   ChanceToSpawnProps: 55
+  RoofDeco:
+  - {fileID: 1000010463516486, guid: 859d080e61531304caf6363b16549719, type: 2}
+  - {fileID: 1000012544525402, guid: 01a870091e6c2b24aa81338a34a4cd5e, type: 2}
+  - {fileID: 1000013714542706, guid: 437ef399799559e4d96961ec938d1f9a, type: 2}
+  - {fileID: 1000013533447358, guid: 1977f1e5dcdc3a04e843c663298191c5, type: 2}
+  - {fileID: 1000013100986404, guid: d56b7cac969180d49ad2102aebb8f46c, type: 2}
+  - {fileID: 1000010442164726, guid: c7276981d10b5314f918a9355b8b07db, type: 2}
+  - {fileID: 1000010261149968, guid: 2eabc32166049704a8cf2de9da91a765, type: 2}
+  - {fileID: 1000010614120518, guid: a855e316d9f37264eb6d942295a48162, type: 2}
+  maxRoofDeco: 10
+  ChanceToSpawnRoofDeco: 69.2
   Foreground:
   - {fileID: 1000013120577666, guid: 4eb2a01e8642cea45953d3ecb541f6ca, type: 2}
   - {fileID: 1000012818368828, guid: 88c8103e8a96e7d42b7c4b758411da9d, type: 2}

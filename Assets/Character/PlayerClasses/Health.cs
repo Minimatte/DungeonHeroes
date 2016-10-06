@@ -52,7 +52,7 @@ public class Health : MonoBehaviour {
         canTakeDamage = true;
     }
 
-    private IEnumerator DamageFrames(float duration) {
+    protected IEnumerator DamageFrames(float duration) {
         canTakeDamage = false;
         float elapsed = 0;
 

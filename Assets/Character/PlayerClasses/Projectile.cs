@@ -57,7 +57,7 @@ public class Projectile : MonoBehaviour {
             Destroy(Instantiate(hitParticle, transform.position, Quaternion.identity), 3);
 
         if (destroyOnImpact) {
-            Destroy(gameObject);
+            DestroyProjectile();
         }
     }
 
@@ -86,8 +86,21 @@ public class Projectile : MonoBehaviour {
         Destroy(gameObject);
     }
 
-    public void OnDestroy() {
-        if (impactSound != null)
-            AudioSource.PlayClipAtPoint(impactSound, transform.position);
+    public void DestroyProjectile() {
+        if (impactSound != null) {
+            AudioSource source = GetComponent<AudioSource>();
+            if (source != null) {
+                if (!source.isPlaying) {
+                    source.clip = impactSound;
+                    source.Play();
+                    print("Playing sound source");
+                    
+                }
+            } else {
+                AudioSource.PlayClipAtPoint(impactSound, transform.position);
+            }
+        }
+
+        Destroy(gameObject);
     }
 }

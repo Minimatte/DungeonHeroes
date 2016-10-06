@@ -19,7 +19,8 @@ public class Beholder : Boss {
     }
 
     protected override void Attack() {
-    
+        if (!active)
+            return;
         
         if (health.hasShield) {
             var rand = Random.Range(0, 3);

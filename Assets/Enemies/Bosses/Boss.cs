@@ -8,6 +8,10 @@ public class Boss : EnemyFlying {
 
     protected bool flips = true;
 
+    void Start() {
+        BossRoom.currentBoss = gameObject;
+    }
+
     void Update() {
         if (!active)
             return;
@@ -31,5 +35,7 @@ public class Boss : EnemyFlying {
     }
 
     protected virtual void Movement() { }
+
+
 
 }

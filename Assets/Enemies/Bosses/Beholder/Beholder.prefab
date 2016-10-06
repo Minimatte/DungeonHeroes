@@ -420,6 +420,7 @@ MonoBehaviour:
   healthRegen: 0
   hasDamageFrames: 0
   damageFramesTime: 0.5
+  canTakeDamage: 1
   deathEffects: []
   deathSoundEffects: []
   shieldId: 2
@@ -439,6 +440,7 @@ MonoBehaviour:
   healthRegen: 0
   hasDamageFrames: 0
   damageFramesTime: 0.5
+  canTakeDamage: 1
   deathEffects: []
   deathSoundEffects: []
   shieldId: 0
@@ -458,8 +460,14 @@ MonoBehaviour:
   healthRegen: 0
   hasDamageFrames: 0
   damageFramesTime: 0.1
+  canTakeDamage: 1
   deathEffects: []
   deathSoundEffects: []
+  loot:
+  - {fileID: 193756, guid: 4b8a6cd36a53df443b0f8c2d40ce5c51, type: 2}
+  explosionEffect: {fileID: 1000012648723718, guid: dde33ba83bbd3a849af23efe5f9692d4,
+    type: 2}
+  explosionSound: {fileID: 8300000, guid: 65fb6b1b0ca039741bc74bcf5daa23f0, type: 3}
   shields: 4
 --- !u!114 &11457518
 MonoBehaviour:
@@ -477,6 +485,7 @@ MonoBehaviour:
   healthRegen: 0
   hasDamageFrames: 0
   damageFramesTime: 0.5
+  canTakeDamage: 1
   deathEffects: []
   deathSoundEffects: []
   shieldId: 3
@@ -496,6 +505,7 @@ MonoBehaviour:
   healthRegen: 0
   hasDamageFrames: 0
   damageFramesTime: 0.5
+  canTakeDamage: 1
   deathEffects: []
   deathSoundEffects: []
   shieldId: 1

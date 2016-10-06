@@ -15,3 +15,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Dungeon2.unity
   - enabled: 1
     path: Assets/Scenes/BossRoom1.unity
+  - enabled: 1
+    path: Assets/Scenes/Dungeon3.unity

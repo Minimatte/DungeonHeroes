@@ -12,7 +12,7 @@ GameObject:
   - 114: {fileID: 11400634}
   - 114: {fileID: 11440828}
   - 50: {fileID: 5077830}
-  - 61: {fileID: 6157036}
+  - 58: {fileID: 58000011408500470}
   m_Layer: 16
   m_Name: Ghost
   m_TagString: Untagged
@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 139838}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.9713373, y: 2.0126834, z: 0}
+  m_LocalPosition: {x: -1.3637164, y: 0.20348148, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -50,20 +50,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &6157036
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 139838}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
 --- !u!114 &11400634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -85,8 +71,8 @@ MonoBehaviour:
   aiProperties:
     aggroRange: 5
   target: {fileID: 0}
-  patrolRange: 1
-  speed: 0.8
+  patrolRange: 5
+  speed: 0.5
   ghostProjectile: {fileID: 183048, guid: a258cbd8f7b8fdf439d11558692d3274, type: 2}
 --- !u!114 &11440828
 MonoBehaviour:
@@ -104,6 +90,9 @@ MonoBehaviour:
   healthRegen: 0
   hasDamageFrames: 0
   damageFramesTime: 0.5
+  canTakeDamage: 1
+  Loot: []
+  DropChance: 0
   deathEffects: []
   deathSoundEffects: []
 --- !u!212 &21260192
@@ -162,3 +151,17 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 139838}
   m_IsPrefabParent: 1
+--- !u!58 &58000011408500470
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139838}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3

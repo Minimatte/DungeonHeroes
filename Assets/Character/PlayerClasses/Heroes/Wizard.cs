@@ -13,8 +13,8 @@ public class Wizard : Hero {
 
         health = 15;
         mana = 30;
-        power = 25;
-        stamina = 3;
+        power = 10;
+        stamina = 4;
 
         movementSpeed = 3;
 

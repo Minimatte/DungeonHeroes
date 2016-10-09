@@ -13,7 +13,7 @@ public class Ninja : Hero {
 
         health = 35;
         mana = 20;
-        power = 15;
+        power = 7;
         stamina = 5;
 
         movementSpeed = 4;

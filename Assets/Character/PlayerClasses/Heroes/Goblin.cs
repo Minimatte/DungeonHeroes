@@ -13,9 +13,8 @@ public class Goblin : Hero {
 
         health = 40;
         mana = 10;
-        power = 25;
-        stamina = 3;
-
+        power = 15;
+        stamina = 4;
 
         movementSpeed = 3;
 

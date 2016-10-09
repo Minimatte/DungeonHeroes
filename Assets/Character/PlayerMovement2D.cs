@@ -43,6 +43,7 @@ public class PlayerMovement2D : MonoBehaviour {
             anim = GetComponent<Animator>();
 
         hero = GetComponent<HeroClass>().hero;
+        
     }
 
     public bool canMoveX {
@@ -90,7 +91,6 @@ public class PlayerMovement2D : MonoBehaviour {
                     case "Portal":
                         if (hit.collider.GetComponent<Portal>().open) {
                             hit.collider.GetComponent<Portal>().UsePortal();
-                            transform.position = Vector3.one;
                         }
                         break;
                 }

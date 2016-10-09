@@ -13,8 +13,8 @@ public class Assassin : Hero {
 
         health = 20;
         mana = 5;
-        power = 35;
-        stamina = 3;
+        power = 10;
+        stamina = 4;
 
         movementSpeed = 5;
 

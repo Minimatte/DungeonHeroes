@@ -175,11 +175,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1084e8fe87d33be49888948ab56c1236, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 30
-  currentHealth: 30
+  maxHealth: 45
+  currentHealth: 45
   healthRegen: 0
   hasDamageFrames: 0
   damageFramesTime: 0.5
   canTakeDamage: 1
+  Loot:
+  - {fileID: 193756, guid: 4b8a6cd36a53df443b0f8c2d40ce5c51, type: 2}
+  DropChance: 100
   deathEffects: []
   deathSoundEffects: []

@@ -11,7 +11,12 @@ public class Health : MonoBehaviour {
     public float damageFramesTime = 0.5f;
     public bool canTakeDamage = true;
 
+    [Header("Loot")]
+    public List<GameObject> Loot;
+    [Range(0f, 100f)]
+    public float DropChance = 0;
 
+    [Header("Death Effect")]
     public List<GameObject> deathEffects;
     public List<AudioClip> deathSoundEffects;
 
@@ -39,6 +44,11 @@ public class Health : MonoBehaviour {
     }
 
     public virtual void Kill() {
+        if (Loot.Count > 0) {
+            if (Random.Range(0, 100) < DropChance)
+                Instantiate(Loot[Random.Range(0, Loot.Count)], transform.position, Quaternion.identity);
+        }
+
         Destroy(gameObject);
     }
 

@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
+using UnityStandardAssets.ImageEffects;
 
 public class CameraMovement2D : MonoBehaviour {
 
@@ -40,16 +40,29 @@ public class CameraMovement2D : MonoBehaviour {
 
     // Update is called once per frame 
     void Update() {
+        if (player == null) {
+            if (GameEvents.player == null)
+                return;
+            else {
+                player = GameEvents.player;
+            }
+        }
+
         if (player) {
             movementX = ((player.transform.position.x + offsetX - this.transform.position.x)) / maximumDistance;
             movementY = ((player.transform.position.y + offsetY - this.transform.position.y)) / maximumDistance;
             this.transform.position += new Vector3((movementX * playerVelocity * Time.deltaTime), (movementY * playerVelocity * Time.deltaTime), 0);
         }
 
+        if (GetComponent<VignetteAndChromaticAberration>().chromaticAberration > 0)
+            GetComponent<VignetteAndChromaticAberration>().chromaticAberration -= Time.deltaTime * 80;
+        else
+            GetComponent<VignetteAndChromaticAberration>().chromaticAberration = 0;
+
         if (shake > 0) {
             transform.localPosition = transform.localPosition + new Vector3(Random.insideUnitSphere.x * shakeAmount, Random.insideUnitSphere.y * shakeAmount, 0);
             shake -= Time.deltaTime * decreaseFactor;
-
+            GetComponent<VignetteAndChromaticAberration>().chromaticAberration = 3;
         } else {
             shake = 0;
         }
@@ -58,6 +71,7 @@ public class CameraMovement2D : MonoBehaviour {
     public void ShakeCamera(float amount, float time) {
         decreaseFactor = time;
         shake = amount;
+        
     }
 
 

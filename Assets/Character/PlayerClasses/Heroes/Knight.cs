@@ -13,8 +13,8 @@ public class Knight : Hero {
 
         health = 50;
         mana = 10;
-        power = 10;
-        stamina = 3;
+        power = 5;
+        stamina = 4;
         movementSpeed = 3;
 
 

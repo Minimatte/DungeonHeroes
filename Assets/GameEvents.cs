@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System;
 using System.Linq;
 using System.Reflection;
+using UnityEngine.SceneManagement;
+using UnityStandardAssets.ImageEffects;
 
 public class GameEvents : MonoBehaviour {
 
@@ -17,6 +19,8 @@ public class GameEvents : MonoBehaviour {
     public List<string> sprites;
     public int statPoints = 15;
     private static bool hasRandmized = false;
+    private static bool changingLevel = false;
+    private static string LevelName = "Town";
 
     void Awake() {
         if (dungeonsCleared[0] == false)
@@ -65,8 +69,6 @@ public class GameEvents : MonoBehaviour {
             print("Loaded player");
 
         } else {
-
-
             List<Type> heroes = new List<Type>();
 
             foreach (var asm in AppDomain.CurrentDomain.GetAssemblies()) {
@@ -97,5 +99,32 @@ public class GameEvents : MonoBehaviour {
         ItemComponent temp = (Instantiate(baseItem, position, Quaternion.identity) as GameObject).GetComponent<ItemComponent>();
         temp.item = item;
         temp.setItemSprite(item.sprite);
-    }   
+    }
+
+    void Update() {
+        if (changingLevel) {
+            VignetteAndChromaticAberration vign = Camera.main.GetComponent<VignetteAndChromaticAberration>();
+            if (vign.intensity < 1) {
+                vign.intensity = Mathf.Clamp(vign.intensity + Time.deltaTime * 2, 0, 1);
+
+            } else {
+                SceneManager.LoadScene(LevelName);
+                transform.position = Vector2.one;
+                changingLevel = false;
+            }
+
+        } else { // not changing level
+            VignetteAndChromaticAberration vign = Camera.main.GetComponent<VignetteAndChromaticAberration>();
+
+            if (vign.intensity > 0) {
+                vign.intensity = Mathf.Clamp(vign.intensity - Time.deltaTime * 2, 0, 1);
+            }
+        }
+    }
+
+    public static void ChangeLevel(string levelName) {
+        LevelName = levelName;
+        changingLevel = true;
+    }
+
 }

@@ -7,6 +7,7 @@ public class Portal : MonoBehaviour {
     public string LevelName = "Town";
     public bool open = true;
     public int dungeonID = 0;
+    private GameObject gameEvents;
 
     void Start() {
         if (GameEvents.dungeonsCleared[dungeonID])
@@ -17,6 +18,7 @@ public class Portal : MonoBehaviour {
 
     public void UsePortal() {
         GameSaver.SaveGame();
-        SceneManager.LoadScene(LevelName);
+        GameEvents.ChangeLevel(LevelName);
+        
     }
 }

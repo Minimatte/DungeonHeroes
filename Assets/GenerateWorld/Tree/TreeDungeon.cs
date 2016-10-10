@@ -101,7 +101,11 @@ public class TreeDungeon : MonoBehaviour {
             p.GetComponent<SpellHandler>().enabled = true;
         }
 
-        GameEvents.player.transform.position = root.position;
+        Vector2 startlocation = root.position;
+        RaycastHit2D hit = Physics2D.Raycast(startlocation, Vector2.down, root.height, 1 << LayerMask.NameToLayer("Ground"));
+
+        GameEvents.player.transform.position = hit.point;
+        Camera.main.transform.position = new Vector3(hit.point.x, hit.point.y, Camera.main.transform.position.z);
 
         roomList[roomList.Count - 1].instance.endroom = true;
         roomList[0].instance.startingRoom = true;

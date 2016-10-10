@@ -109,7 +109,7 @@ public class GameEvents : MonoBehaviour {
 
             } else {
                 SceneManager.LoadScene(LevelName);
-                transform.position = Vector2.one;
+                
                 changingLevel = false;
             }
 
